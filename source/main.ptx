@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <docinfo>
+    <directories external="../assets"/>
+    <document-id>pahlow-math97notes</document-id>
+  </docinfo>
+
+  <article xml:id="math97notes">
+    <title>Math 97 Notes</title>
+
+    <xi:include href="./frontmatter.ptx" />
+    <xi:include href="./introduction.ptx" />
+    <xi:include href="./section-1.ptx" />
+    <xi:include href="./section-2.ptx" />
+    <xi:include href="./section-3.ptx" />
+    <xi:include href="./section-4.ptx" />
+    <xi:include href="./backmatter.ptx" />
+  </article>
+
+</pretext>

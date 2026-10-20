@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xml:id="section-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Factoring</title>
+  <introduction>
+    <p>
+      In this section we will focus on factoring, mainly the factoring 
+      of quadratic expressions. By the end of this section we will have 
+      developed a general factoring strategy that can be applied to all
+      quadratic expressions and can extend to higher power expressions
+      as well. Factoring is one of the ways to solve a quadratic equation,
+      which will be the focus of our next section.
+    </p>
+  </introduction>
+  <xi:include href="./ws-1-1.ptx" />
+  <xi:include href="./ws-1-2.ptx" />
+  <xi:include href="./ws-1-3.ptx" />
+  <xi:include href="./ws-1-4.ptx" />
+  <subsection xml:id="subsec-Video-Examples-1">
+    <title>Video Examples</title>
+    <p>
+      blah blah
+    </p>
+  </subsection>
+<assemblage>
+  <title>Factoring Takeaways</title>
+  <p>
+    blah blah and list
+  </p>
+</assemblage>
+</section>

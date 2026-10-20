@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<frontmatter>
+  <bibinfo>
+    <author>
+      <personname>Michael Pahlow</personname>
+    <institution>
+    Green River College
+    </institution>
+    <department>
+    Mathematics Division
+    </department>
+    <email>
+    mpahlow@greenriver.edu
+    </email>
+    </author>
+    <date><today/></date>
+  </bibinfo>
+  <titlepage>
+  <titlepage-items/>
+  </titlepage>
+</frontmatter>

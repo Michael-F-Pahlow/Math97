@@ -1,0 +1,46 @@
+<worksheet>
+<title>Factoring by Grouping</title>
+<objectives>
+<p>
+    In this section we will see how to:
+    <ul>
+        <li>
+            <p>
+                Determine the greatest common factor of an expression.
+            </p>
+        </li>
+        <li>
+            <p>
+                Factor out the greatest common factor from an expression.
+            </p>
+        </li>
+        <li>
+            <p>
+                Factor an expression with an even number of terms by grouping.
+            </p>
+        </li>
+    </ul>
+    </p>
+</objectives>
+<p>
+    blah blah blah
+</p>
+<example>
+    <title>Indentify a GCF</title>
+    <statement>
+        <p>
+            What is the GCF of the expression <m>30x^2 + 18x^2</m>?
+        </p>
+    </statement>
+    <solution>
+        <p>
+            Since the lowest power of each term is <m>x^2</m>, 
+            that is the GCF of the variable part. The GCF of 30 and 18 is 6,
+            since <m>30 = 6\cdot 5</m> and <m>18=6\ cdot 3</m>. So the GCF is 
+            <m>6x^2</m>.
+        </p>
+    </solution>
+    
+</example>
+
+</worksheet>
