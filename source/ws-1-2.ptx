@@ -1,0 +1,199 @@
+<worksheet>
+<title>Factoring Trinomials - Part 1</title>
+<objectives>
+    <introduction>
+        <p>
+            In this section you will see how to:
+        </p>
+    </introduction>
+    <ul>
+        <li>
+            <p>
+                Factor a trinomial of the form <m>x^2 + bx +c</m>
+            </p>
+        </li>
+    </ul>
+</objectives>
+<p>
+    Factoring trinomial (three-term) expressions is very common in mathematics. This may be the most important topic in all of Math 97. 
+    If the trinomial is of the form <m>x^2 + bx +c </m>, we are looking for two numbers that add to <m>b</m> and multiply to <m>c</m>. Sometimes, we 
+    may also need to first factor out a GCF. Since these are all three-term expressions, we cannot factor by grouping.
+</p>
+<example>
+<title>Factor</title>
+<statement>
+    <p>
+        Factor the expression <m>x^2-3x+2</m>
+    </p>
+</statement>
+<answer>
+    <p>
+        <m>(x-1)(x-2)</m>
+    </p>
+</answer>
+<solution>
+    <p>
+        We are looking for two numbers that add to -3 and multiply to 2. -1 and -2 are the numbers that work. The factoring is <m>(x-2)(x-1)</m>.
+    </p>
+</solution>
+</example>
+<p>
+    To help determine the two numbers that will become the numbers in the factors, we can use the positive and negative signs of <m>b</m> and <m>c</m>. If both <m>b</m> 
+    and <m>c</m> are both positive, then the two numbers must both be positive. If <m>b</m> is negative and <m>c</m> is positive, as in the last example, then both numbers
+    must be negative. If <m>c</m> is negative, then one number must be positive and the other number must be negative.
+</p>
+<example>
+    <title>Factor</title>
+<statement>
+    <p>
+        Factor the expression <m>x^2+5x+6</m>
+    </p>
+</statement>
+<answer>
+    <p>
+        <m>(x+2)(x+3)</m>
+    </p>
+</answer>
+<solution>
+    <p>
+        The two numbers that add to 5 and multiply to 6 are 2 and 3, so the final factorization <m>(x+2)(x+3)</m>.
+    </p>
+</solution>
+</example>
+<example>
+    <title>Factor</title>
+<statement>
+    <p>
+        Factor the expression <m>x^2+x-56</m>
+    </p>
+</statement>
+<answer>
+    <p>
+        <m>(x+8)(x-7)</m>
+    </p>
+</answer>
+<solution>
+    <p>
+        The two numbers that add to -1 and multiply to 56 are 8 and -7, so the final factorization <m>(x+8)(x-7)</m>.
+    </p>
+</solution>
+</example>
+<example>
+    <title>Factor</title>
+<statement>
+    <p>
+        Factor the expression <m>x^2-11x+18</m>
+    </p>
+</statement>
+<answer>
+    <p>
+        <m>(x-9)(x-2)</m>
+    </p>
+</answer>
+<solution>
+    <p>
+        The two numbers that add to -11 and multiply to 18 are -9 and -2, so the final factorization <m>(x-9)(x-2)</m>.
+    </p>
+</solution>
+</example>
+<example>
+    <title>Factor</title>
+<statement>
+    <p>
+        Factor the expression <m>x^2-2x-48</m>
+    </p>
+</statement>
+<answer>
+    <p>
+        <m>(x-8)(x+6)</m>
+    </p>
+</answer>
+<solution>
+    <p>
+        The two numbers that add to -2 and multiply to -48 are -8 and 6, so the final factorization <m>(x-8)(x+6)</m>.
+    </p>
+</solution>
+</example>
+<p>
+    Sometimes we must first factor out a GCF. Do not lose the GCF when you factor that trinomial!
+</p>
+<example>
+    <title>Factor</title>
+<statement>
+    <p>
+        Factor the expression <m>4x^2+24x-28</m>
+    </p>
+</statement>
+<answer>
+    <p>
+        <m>4(x+7)(x-1)</m>
+    </p>
+</answer>
+<solution>
+    <p>
+        First factor out the GCF of 4 giving <m>4(x^2-6x+7)</m>. Now we are looking for two numbers that add to -6 and multiply 7. The numbers are 7 and -1, 
+        so the final factorization <m>4(x+7)(x-1)</m>.
+    </p>
+</solution>
+</example>
+<p>
+    <alert>Try it Now!</alert>
+</p>
+<exercise>
+    <introduction>
+    <p>
+      Factor the following expressions completely.  
+    </p>
+    </introduction>
+    <task workspace="1.0in">
+        <statement>
+            <p>
+                <m>x^2+17x+72</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.0in">
+        <statement>
+            <p>
+                <m>x^2-16x+60</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.0in">
+        <statement>
+            <p>
+                <m>x^2+16x-7</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.0in">
+        <statement>
+            <p>
+                <m>x^2+3x-54</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.0in">
+        <statement>
+            <p>
+                <m>x^2-2x-8</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.0in">
+        <statement>
+            <p>
+                <m>2x^2+18x+16</m>
+            </p>
+        </statement>
+    </task>
+
+<task workspace="1.0in">
+        <statement>
+            <p>
+                <m>x^2+11xy+28y^2</m>
+            </p>
+        </statement>
+    </task>
+    </exercise>
+</worksheet>

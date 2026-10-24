@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <section xml:id="section-3" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Rational Expressions and Equations</title>
+  <introduction>
+    <p>
+      blah blah
+    </p>
+  </introduction>
+  <xi:include href="./ws-3-1.ptx" />
+  <xi:include href="./ws-3-2.ptx" />
+  <xi:include href="./ws-3-3.ptx" />
+  <xi:include href="./ws-3-4.ptx" />
+  <xi:include href="./ws-3-5.ptx" />
+  <xi:include href="./ws-3-6.ptx" />
+  <subsection xml:id="subsec-Video-Examples-3">
+    <title>Video Examples</title>
+    <p>
+      Coming Soon!
+    </p>
+  </subsection>
 </section>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glossary xml:id="glossary">
+<idx>glossary</idx>
+<gi>
+<title>Factoring</title>
+<p>
+    The reverse process of multiplication.
+</p>
+</gi>
+
+<gi>
+<title>Greatest Common Factor</title>
+<p>
+    GCF for short. The greatest common factor, is largest combination of numbers and variables that can be factored out from each term of
+    a polynomial.
+</p>
+</gi>
+
+<gi>
+<title>Grouping</title>
+<p>
+    A technique of factoring where you start with an equal number of groups. Factor the GCF out of each group then factor again to get two, multi-term factors.
+</p>
+</gi>
+</glossary>

@@ -1,8 +1,12 @@
 <worksheet>
 <title>Factoring by Grouping</title>
+
 <objectives>
-<p>
-    In this section we will see how to:
+<introduction>
+    <p>
+    In this section you will see how to:
+    </p>
+</introduction>
     <ul>
         <li>
             <p>
@@ -20,18 +24,32 @@
             </p>
         </li>
     </ul>
-    </p>
 </objectives>
 <p>
-    blah blah blah
+    <term>Factoring</term> is the reverse process to multiplication. Recall that when you multiply with variables, you multiply the numbers and
+    variables separately. When you multiply the variables, you add the exponents. For example <m>(4x^2)(2x^3) = 8x^5</m>. Factoring reverses
+    the process so <m>8x^5 = (4x^2)(2x^3)</m>. 
+</p>
+<p>
+    For polynomials we are interested in finding and factoring out the most we can from each term. This is called the 
+    <term>Greatest Common Factor</term> or <alert>GCF</alert> for short. When dealing with variables, this means the GCF is the 
+    common variable with the smallest exponent among all of the terms. For numbers, this means that if you factor each number, 
+    the GCF is largest combination of factors from each term. For example, in the polynomial <m>8x^5 + 20x^4 + 28x^3</m>, the GCF
+    is <m>4x^3</m> since the smallest exponent is 3 and when you factor the numbers, 8 = (4)(2), 20 = (4)(5) and 28 = (4)(7), 4 is the largest
+    factor that is common to each term.
 </p>
 <example>
-    <title>Indentify a GCF</title>
+    <title>Identify the GCF</title>
     <statement>
         <p>
             What is the GCF of the expression <m>30x^2 + 18x^2</m>?
         </p>
     </statement>
+    <answer>
+        <p>
+            <m>6x^2</m>
+        </p>
+    </answer>
     <solution>
         <p>
             Since the lowest power of each term is <m>x^2</m>, 
@@ -40,7 +58,200 @@
             <m>6x^2</m>.
         </p>
     </solution>
-    
 </example>
-
+<example>
+<title>Identify the GCF</title>
+<statement>
+    <p>
+        What is the GCF of the expression <m>28x^5+8x^4 + 12x^3</m>?
+    </p>
+</statement>
+<answer>
+    <p>
+        <m>4x^3</m>
+    </p>
+</answer>
+<solution>
+    <p>
+        The GCF of the variable part is <m>x^3</m> and GCF of the number part is 4. So the GCF is <m>4x^3</m>.
+    </p>
+</solution>
+</example>
+<p>
+<alert>Try it Now!</alert>
+</p>
+<exercise>
+    <introduction>
+        <p>
+            What is the GCF of the following polynomial expressions?
+        </p>
+    </introduction>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                <m>16x^3-2x^2+12x</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                <m>20x^5+8x^3+12x^2</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                <m>25x^6 + 5x^4 + 15x^3</m>
+            </p>
+        </statement>
+    </task>
+</exercise>
+<p>
+   Once you identify the GCF, you want to factor this out of each term. What is remaining from each term forms the other factor.
+</p>
+<example>
+    <title>Factor Out the GCF</title>
+    <statement>
+        <p>
+            Factor the expression <m>10x^8 + 6x^7 + 22x^5</m>.
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <m>2x^5(5x^3 + 3x^2+11)</m>
+        </p>
+    </answer>
+    <solution>
+        <p>
+            The GCF is <m>2x^5</m>. When you factor <m>2x^5</m> out of <m>10x^8</m>, you are left with <m>5x^3</m> since <m>(5x^3)(2x^5) = 10x^8</m>. 
+            When you factor <m>2x^5</m> out of <m>6x^7</m>, you are left with <m>3x^2</m> since <m>(3x^2)(2x^5) = 6x^7</m>. When you factor <m>2x^5</m>
+            out of <m>22x^5</m>, you are left with <m>11</m> since <m>(11)(2x^5) = 22x^5</m>. So the final factorization is <m>2x^5(5x^3 + 3x^2+11)</m>.
+        </p>
+    </solution>
+    </example>
+    <example>
+        <title>Factor Out the GCF</title>
+        <statement>
+            <p>
+                Factor the expression <m>8x^3-12x^2y+20xy^2</m>
+            </p>
+        </statement>
+        <answer>
+            <p>
+                <m>4x(2x^2-3xy+5y^2)</m>
+            </p>
+        </answer>
+        <solution>
+            <p>
+                The GCF is <m>4x</m>. There are no <m>y</m>'s in the first term, so <m>y</m> is not included in the GCF. The final factorization is
+                <m>4x(2x^2-3xy+5y^2)</m>
+            </p>
+        </solution>
+    </example>
+    <p>
+        <alert>Try it Now!</alert>
+    </p>
+    <exercise>
+        <introduction>
+            <p>
+                Factor the following expressions by factoring out the GCF.
+            </p>
+        </introduction>
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>28x^7+8x^6+44x^4</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>9m^2n-36mn-288n</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>8x(5x-4y)-3(5x-4y)</m>
+                </p>
+            </statement>
+        </task>
+    </exercise>
+    <p>
+        We can go one step further with factoring if we start with an even number of terms. This technique is called factoring by <term>grouping</term>. 
+        We need and even number of terms so that we can form equal sized groups.
+    </p>
+    <example>
+        <title>Factor by Grouping</title>
+        <statement>
+            <p>
+                Factor the expression <m>xy+8y+3x+24</m>
+            </p>
+        </statement>
+        <answer>
+            <p>
+                <m>(x+8)(y+3)</m>
+            </p>
+        </answer>
+        <solution>
+            <p>
+                Split the expression into two groups <m>(xy+8y)</m> and <m>(3x+24)</m>. Factor the GCF out of each group: <m>y(x+8)</m> and <m>3(x+8)</m>. The complete 
+                expression is now <m>y(x+8)+3(x+8)</m>. Notice that the factors in the parentheses match, so <m>(x+8)</m> is also a GCF for our now two terms. Factor this 
+                out and the parts in front of the <m>(x+8)</m>'s form the other factor. The final factorization is <m>(x+8)(y+3)</m>.
+            </p>
+        </solution>
+    </example>
+    <example>
+        <title>Factor by Grouping</title>
+        <statement>
+            <p>
+                Factor the expression <m>4x^2-16x+3x-12</m>
+            </p>
+        </statement>
+        <answer>
+            <p>
+                <m>(x-4)(4x+3)</m>
+            </p>
+        </answer>
+        <solution>
+            <p>
+                <m>4x^2-16x+3x-12 \rightarrow 4x(x-4) + 3(x-4) \rightarrow (x-4)(4x+3)</m>
+            </p>
+        </solution>
+    </example>
+    <p>
+        <alert>Try it Now!</alert>
+    </p>
+    <exercise>
+        <introduction>
+            <p>
+                Completely factor the following expressions by grouping.
+            </p>
+        </introduction>
+        <task workspace="1.0in">
+            <statement>
+                <p>
+                    <m>x^2+7x-3x-21</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="1.0in">
+            <statement>
+                <p>
+                    <m>x^2y-xy^2+2x-2y</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="1.0in">
+            <statement>
+                <p>
+                    <m>w^2+2w+3w+6</m>
+                </p>
+            </statement>
+        </task>
+    </exercise>
 </worksheet>

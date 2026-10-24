@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <section xml:id="section-2" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Quadratic Equations</title>
+  <introduction>
+    <p>
+      blah blah
+    </p>
+  </introduction>
+  <xi:include href="./ws-2-1.ptx" />
+  <xi:include href="./ws-2-2.ptx" />
+  <xi:include href="./ws-2-3.ptx" />
+  <xi:include href="./ws-2-4.ptx" />
+  <xi:include href="./ws-2-5.ptx" />
+  <xi:include href="./ws-2-6.ptx" />
+  <xi:include href="./ws-2-7.ptx" />
+  <subsection xml:id="subsec-Video-Examples-2">
+    <title>Video Examples</title>
+    <p>
+      Coming Soon!
+    </p>
+  </subsection>
+
 </section>

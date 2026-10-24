@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <section xml:id="section-4" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Roots and Radicals</title>
+  <introduction>
+    <p>
+      blah blah
+    </p>
+  </introduction>
+  <xi:include href="./ws-4-1.ptx" />
+  <xi:include href="./ws-4-2.ptx" />
+  <xi:include href="./ws-4-3.ptx" />
+  <xi:include href="./ws-4-4.ptx" />
+  <xi:include href="./ws-4-5.ptx" />
+  <subsection xml:id="subsec-rules-of-exponents">
+    <title>Rules of Exponents</title>
+    
+  </subsection>
+  <subsection xml:id="subsec-Video-Examples-4">
+    <title>Video Examples</title>
+    <p>
+      Coming Soon!
+    </p>
+  </subsection>
 </section>

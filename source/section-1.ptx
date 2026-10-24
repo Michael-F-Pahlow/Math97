@@ -15,16 +15,54 @@
   <xi:include href="./ws-1-2.ptx" />
   <xi:include href="./ws-1-3.ptx" />
   <xi:include href="./ws-1-4.ptx" />
+<subsection xml:id="subsec-factoring-strategy">
+  <title>A Factoring Strategy</title>
+  <ol>
+    <li>
+      <p>
+        Check for a GCF and if there is one, factor it out.
+      </p>
+    </li>
+    <li>
+      <p>
+        If there are two terms, check for a difference of squares and factor accordingly.
+      </p>
+    </li>
+    <li>
+      <p>
+        If there are four (or six or eight...) terms, then factor by grouping.
+      </p>
+    </li>
+    <li>
+      <p>
+        If there are three terms, check for a perfect square trinomial. See if the first and last terms are prefect squares and check to see if the middle term is <m>2acx</m>.
+      </p>
+    </li>
+    <li>
+      <p>
+        If a trinomial is not a perfect square trinomial and the first term has a coefficient of 1, then find two numbers that add to <m>b</m> and multiply to <m>c</m>.
+      </p>
+    </li>
+    <li>
+      <p>
+        If the trinomial is not a perfect square trinomial and the first term does not have a coefficient of 1, multiply the first and last number to get the key number. 
+        Look for two numbers that multiply to the key number and add to the middle number. Split the middle term into two terms using these numbers. Then factor by grouping.
+      </p>
+    </li>
+  </ol>
+</subsection>
+
   <subsection xml:id="subsec-Video-Examples-1">
     <title>Video Examples</title>
     <p>
-      blah blah
+      Coming soon!
     </p>
   </subsection>
 <assemblage>
   <title>Factoring Takeaways</title>
   <p>
-    blah blah and list
+    Factoring is an important algebra technique that is used in many areas of mathematics. One important application of factoring is in solving polynomial equations. In the next
+    section we will use our newfound knowledge of factoring to solve quadratic equations. In Math 141, you will see how factoring can be used to factor higher degree polynomials.
   </p>
 </assemblage>
 </section>

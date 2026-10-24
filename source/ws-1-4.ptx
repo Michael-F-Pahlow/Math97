@@ -1,0 +1,179 @@
+<worksheet>
+<title>Special Factoring</title>
+<objectives>
+    <introduction>
+        <p>
+            In this section you will see how to:
+        </p>
+    </introduction>
+    <ul>
+        <li>
+            <p>
+                Factor perfect square trinomials.
+            </p>
+        </li>
+        <li>
+            <p>
+                Factor a difference of squares.
+            </p>
+        </li>
+    </ul>
+</objectives>
+<p>
+    Mathematics is the study of patterns and factoring is mostly about recognizing patterns. Two of the most common patterns are perfect square trinomials,
+    where <m>a^2x^2 + 2acx + c^2 = (ax+c)^2</m> and difference of squares, where <m>a^2x^2 - c^2 = (ax+c)(ax-c)</m>. Note that <m>ax^2 + c^2</m> is not a special factoring pattern
+    and does not factor into whole numbers. We will see what to do with this pattern in a later section.
+</p>
+<example>
+    <title>Factor the Perfect Square Trinomial</title>
+    <statement>
+        <p>
+            Factor <m>x^2-16x+64</m>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <m>(x-8)^2</m>
+        </p>
+    </answer>
+    <solution>
+        <p>
+            We start by noticing that 64 is perfect square. <m>64=8^2 </m> or <m>64 =(-8)^2</m> Since the middle term is negative and <m>-16 = 2(-8)</m>, the factorization is
+            <m>(x-8)^2</m>
+        </p>
+    </solution>
+</example>
+<example>
+    <title>Factor the Perfect Square Trinomial</title>
+    <statement>
+        <p>
+            Factor <m>25x^2+120x+144</m>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <m>(x-8)^2</m>
+        </p>
+    </answer>
+    <solution>
+        <p>
+            We start by noticing that 25 and 144 are both perfect squares. <m>25=5^2 </m> and <m>144 =12^2</m>. Then notice <m>120=2(5)(12)</m>.
+             the final factorization is <m>(5x+12)^2</m>
+        </p>
+    </solution>
+</example>
+<example>
+    <title>Factor the Difference of Squares</title>
+    <statement>
+        <p>
+            Factor <m>x^2-25</m>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <m>(x-5)(x+5)</m>
+        </p>
+    </answer>
+    <solution>
+        <p>
+            Since both <m>x^2</m> and <m>25</m> are perfect squares and subtracted, we can factor to <m>(x-5)(x+5)</m>.
+        </p>
+    </solution>
+</example>
+<example>
+    <title>Factor the Difference of Squares</title>
+    <statement>
+        <p>
+            Factor <m>25x^2-49</m>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <m>(5x-7)(5x+7)</m>
+        </p>
+    </answer>
+    <solution>
+        <p>
+            Since both <m>25x^2</m> and <m>49</m> are perfect squares and subtracted, we can factor to <m>(5x-7)(5x+7)</m>.
+        </p>
+    </solution>
+</example>
+<example>
+    <title>Factor the Difference of Squares</title>
+    <statement>
+        <p>
+            Factor <m>45-5x^2</m>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <m>5(3-x)(3+x)</m>
+        </p>
+    </answer>
+    <solution>
+        <p>
+            First factor out the GCF of 5. The other factor is <m>(9-x^2)</m>. This is a difference of squares that factors into <m>(3-x)(3+x)</m>. The final factorization is
+            <m>5(3-x)(3+x)</m>.
+        </p>
+    </solution>
+</example>
+<p>
+    <alert>Try it Now!</alert>
+</p>
+<exercise>
+    <introduction>
+    <p>
+        Factor the following expressions completely.
+    </p>
+    </introduction>
+    <task workspace="1.0in">
+        <statement>
+            <p>
+                <m>x^2+4x+4</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.0in">
+        <statement>
+            <p>
+                <m>9x^2+24x+16</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.0in">
+        <statement>
+            <p>
+                <m>16x^2-72x+81</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.0in">
+        <statement>
+            <p>
+                <m>x^2-81</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.0in">
+        <statement>
+            <p>
+                <m>49x^2-25</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.0in">
+        <statement>
+            <p>
+                <m>25-4x^2</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.0in">
+        <statement>
+            <p>
+                <m>25x^2+225</m>
+            </p>
+        </statement>
+    </task>
+</exercise>
+</worksheet>
