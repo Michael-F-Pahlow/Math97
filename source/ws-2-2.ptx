@@ -1,3 +1,169 @@
 <worksheet>
 <title>Solving Quadratic Equations by Square Roots</title>
+<objectives>
+    <introduction>
+        <p>
+            In this section we will see how to:
+        </p>
+    </introduction>
+    <ul>
+        <li>
+            <p>
+                Solve quadratic equations using square roots.
+            </p>
+        </li>
+        <li>
+            <p>
+                Recognize when we can use the square root principle.
+            </p>
+        </li>
+    </ul>
+</objectives>
+<p>
+    The <term>square root</term> of a number is the inverse of squaring a number. For example if <m>5^2 = 25</m>, then <m>\sqrt{25} = 5</m>. If the square root of a number is 
+    another whole number, then the number inside the square root is called <term>a perfect square</term>. If a number is not a prefect square, we can use a calculator to find
+    the decimal approximation of the square root or just leave it written inside a square root, such as <m>\sqrt{2}</m>.
+</p>
+<p>
+    Note that <m>(-5)^2 = 25</m>, so <m>\sqrt{25}</m> could also equal <m>-5</m>. So mathematically, <m>\sqrt{25} = \pm 5</m>. In most applications, 
+    we are only interested in the positive value, and this is called the <term>principal square root</term>. When we solve a quadratic equation, however, we want both the
+    positive and negative values of the number.
+</p>
+<example>
+    <title>Solve the Quadratic Equation</title>
+    <statement>
+        <p>
+            <m>x^2=25</m>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <m>x=\pm 5</m>
+        </p>
+    </answer>
+    <solution>
+        <p>
+            Take the square root of both sides of the equation. For the number side of the equation, include a <m>\pm</m>. <m>\sqrt{x^2} = \sqrt{25} \rightarrow x = \pm 5</m>.
+        </p>
+    </solution>
+</example>
+<example>
+    <title>Solve the Quadratic Equation</title>
+    <statement>
+        <p>
+            <m>x^2=58</m>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <m>x=\pm \sqrt{58}</m>
+        </p>
+    </answer>
+    <solution>
+        <p>
+            Take the square root of both sides of the equation. For the number side of the equation, include a <m>\pm</m>. <m>\sqrt{x^2} = \sqrt{58} \rightarrow x = \pm \sqrt{58}</m>.
+        </p>
+    </solution>
+</example>
+<p>
+    We can use square roots to solve a quadratic equation, if there are only squared terms involving the variable and constants. We may need to perform some preliminary steps to
+    isolate the squared variable term first or some steps after taking the square root to isolate the variable.
+</p>
+<example>
+    <title>Solve the Quadratic Equation</title>
+    <statement>
+        <p>
+            <m>6x^2+8=62</m>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <m>x=\pm 3</m>
+        </p>
+    </answer>
+    <solution>
+        <p>
+            Start by isolating the squared term. <m>6x^2 + 8 = 62 \rightarrow 6x^2 = 54 \rightarrow x^2 = 9</m>. Take the square root of both sides of the equation. 
+            <m>\sqrt{x^2} = \sqrt{9} \rightarrow x = \pm 3</m>.
+        </p>
+    </solution>
+</example>
+<example>
+    <title>Solve the Quadratic Equation</title>
+    <statement>
+        <p>
+            <m>(x-7)^2=25</m>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <m>x=\pm 12,2</m>
+        </p>
+    </answer>
+    <solution>
+        <p>
+            Start by taking the square root of both sides. Include a <m>\pm</m> on the number side of the equation. <m>\sqrt{(x-7)^2} = \sqrt{25} \rightarrow x-7 = \pm 5</m>.
+            Add 7 to both sides and solve the two resulting equations. <m>x = 7 \pm 5 \rightarrow x = 12</m> and <m>x=2</m>.
+        </p>
+    </solution>
+</example>
+<p>
+<alert>Try it Now!</alert>
+</p>
+<exercise>
+    <introduction>
+        <p>
+            Solve the following quadratic equations using square roots.
+        </p>
+    </introduction>
+    <task workspace="1.0in">
+        <statement>
+            <p>
+            <m>x^2 = 81</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.0in">
+        <statement>
+            <p>
+            <m>x^2 = 65</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.0in">
+        <statement>
+            <p>
+            <m>5x^2 = 125</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.0in">
+        <statement>
+            <p>
+            <m>8x^2+15=407</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.0in">
+        <statement>
+            <p>
+            <m>(x+5)^2=64</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.0in">
+        <statement>
+            <p>
+            <m>(x+4)^2=29</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.0in">
+        <statement>
+            <p>
+            <m>5(x-5)^2+2=22</m>
+            </p>
+        </statement>
+    </task>
+    </exercise>
 </worksheet>

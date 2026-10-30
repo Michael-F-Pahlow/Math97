@@ -3,7 +3,10 @@
   <title>Quadratic Equations</title>
   <introduction>
     <p>
-      blah blah
+     TIn this section we will study quadratic equations. Any equation where the highest power is <m>x^2</m> is a quadratic equation. 
+     For example, <m>y = 3x^2-7x+12</m> is a quadratic equation. Note: <em>quad</em> = square and we read <m>x^2</m> as <q>x-squared</q>. But for quadratic equations, most
+     things come in threes. There can be three terms in a quadratic equation. There are three types of solutions for a quadratic equation.
+     There are three ways to write a quadratic equation and there are three ways to solve a quadratic equation, which will be the main focus of this section.
     </p>
   </introduction>
   <xi:include href="./ws-2-1.ptx" />

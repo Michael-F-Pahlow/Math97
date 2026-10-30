@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glossary xml:id="glossary">
 <idx>glossary</idx>
+
+<gi>
+<title>Factored Form</title>
+<p>
+    An expression or side of an equation that is completely factored. This leads to one way to solve a quadratic equation.
+</p>
+</gi>
+
 <gi>
 <title>Factoring</title>
 <p>
@@ -20,6 +28,41 @@
 <title>Grouping</title>
 <p>
     A technique of factoring where you start with an equal number of groups. Factor the GCF out of each group then factor again to get two, multi-term factors.
+</p>
+</gi>
+
+<gi>
+<title>Perfect Square Root</title>
+<p>
+    A number whose square root is a whole number.
+</p>
+</gi>
+
+<gi>
+<title>Principal Square Root</title>
+<p>
+    The positive square root of a number.
+</p>
+</gi>
+
+<gi>
+<title>Square Root</title>
+<p>
+    The inverse process of squaring.
+</p>
+</gi>
+
+<gi>
+<title>Standard Form</title>
+<p>
+    A quadratic equation written as <m>y=ax^2 + bx +c</m> or <m>ax^2 + bx  =c = 0</m>.
+</p>
+</gi>
+
+<gi>
+<title>Zero Product Principle</title>
+<p>
+    If a product of factors equals zero, then anyone of the factors could be zero.
 </p>
 </gi>
 </glossary>

@@ -1,3 +1,151 @@
 <worksheet>
 <title>Solving Quadratic Equations by Factoring</title>
+<objectives>
+    <introduction>
+        <p>
+            In this section we will see how to:
+        </p>
+    </introduction>
+    <ul>
+        <li>
+            <p>
+                Apply the zero factor principle.
+            </p>
+        </li>
+        <li>
+            <p>
+                Factor a quadratic equation by factoring.
+            </p>
+        </li>
+    </ul>
+</objectives>
+<p>
+    When you multiply two (or more) things in an expression, the things are called factors. For example <m>(2x)(x-3)</m> consists of the factors <m>(2x)</m> and <m>(x-3)</m>.
+    If you then set this expression equal to zero, you make an equation.
+    <md>
+    (2x)(x-3) = 0
+    </md>
+    If the product of two (or more) factors equals zero, then each of the factors could be zero. This is called the <term>zero product principle</term>.
+</p>
+<p>
+    For quadratic equations equal to zero, we can factor it into linear terms and then set each linear term equal to zero. This turns solving one quadratic equation into
+    solving two linear equations. It is not always possible to factor a quadratic equation, so we will see more techniques to solve quadratic equations in future sections.
+</p>
+<example>
+    <title>Solve by Factoring</title>
+    <statement>
+        <p>
+            Solve the quadratic equation <m>(x-3)(x+7)=0</m>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <m>x = 3, -7</m>
+        </p>
+    </answer>
+    <solution>
+        <p>
+            This equation is already factored for us. (Yeah!) Set each factor to zero and solve. <m>x-3 = 0 \rightarrow x = 3</m> and <m>x+7 = 0\rightarrow x = -7</m>.
+        </p>
+    </solution>
+</example>
+<p>
+    A quadratic equation where the left side is factored, is said to be in <term>factored form</term>.
+</p>
+<example>
+    <title>Solve by Factoring</title>
+    <statement>
+        <p>
+            Solve the quadratic equation <m>5(x+2)(2x-3)=0</m>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <m>x = -2, \frac{3}{2}</m>
+        </p>
+    </answer>
+    <solution>
+        <p>
+            This equation is already factored for us. (Yeah!) The GCF of 5 can never be zero, so we can ignore it. Set the other factors to zero and solve.
+            <m>x+2 = 0 \rightarrow x = -2</m> and <m>2x-3 = 0\rightarrow 2x = 3\rightarrow x = \frac{3}{2}</m>.
+        </p>
+    </solution>
+</example>
+<example>
+    <title>Solve by Factoring</title>
+    <statement>
+        <p>
+            Solve the quadratic equation <m>x^2+9x+20=0</m>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <m>x = -4,-5</m>
+        </p>
+    </answer>
+    <solution>
+        <p>
+            Start by factoring the left side of the equation. <m>x^2+9x+20 = (x+4)(x+5) = 0</m>. Now set each factor to zero and solve to get <m>x = -4 ,5</m>.
+        </p>
+    </solution>
+</example>
+<p>
+<alert>Try it Now!</alert>
+</p>
+<exercise>
+    <introduction>
+        <p>
+            Solve the following quadratic equations by factoring.
+        </p>
+    </introduction>
+    <task workspace="1.0in">
+        <statement>
+            <p>
+                <m>(x-6)(x-5)=0</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.0in">
+        <statement>
+            <p>
+                <m>x^2+21x+108=0</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.0in">
+        <statement>
+            <p>
+                <m>9x^2-42x+49=0</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.0in">
+        <statement>
+            <p>
+                <m>8x^2+6x-9=0</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.0in">
+        <statement>
+            <p>
+                <m>x^2=9x</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.0in">
+        <statement>
+            <p>
+                <m>x(x-7)=8</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.0in">
+        <statement>
+            <p>
+                <m>x^3-5x^2-4x+20=0</m>
+            </p>
+        </statement>
+    </task>
+</exercise>
 </worksheet>
