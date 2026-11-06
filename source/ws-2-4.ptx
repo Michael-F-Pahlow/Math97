@@ -9,14 +9,90 @@
     <ul>
         <li>
             <p>
-                Solve quadratic equations using square roots.
-            </p>
-        </li>
-        <li>
-            <p>
-                Recognize when we can use the square root principle.
+                Complete the square of a quadratic expression.
             </p>
         </li>
     </ul>
 </objectives>
+<p>
+    Completing the square is an algebraic technique for converting a quadratic equation in standard form to another form called vertex form. We will learn more about vertex 
+    form in a few lessons, when we discuss graphing quadratic equations. For now, we will see steps used to complete the square.
+</p>
+<example>
+    <statement>
+        <p>
+            Complete the square of the quadratic <m>x^2-14x+34</m>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <m>(x-7)^2-15</m>
+        </p>
+    </answer>
+    <solution>
+        <p>
+          We want to create a perfect square trinomial. To do this, divide the number in the middle term by two and then square it. <m>-14/2 = -7</m> and <m>(-7)^2 = 49</m>.
+          Now add and subtract this to our expression. <m>x^2-14x+49-49+34</m>. The first three terms now form a perfect square trinomial. <m>x^2-14x+49 = (x-7)^2</m>. 
+          Add <m>-49+34 = -15</m>. Our original expression is now <m>(x-7)^2-15</m>
+        </p>
+        </solution>
+</example>
+<example>
+    <statement>
+        <p>
+            Complete the square of the quadratic <m>2x^2+20x+96</m>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <m>2(x+5)^2+46</m>
+        </p>
+    </answer>
+    <solution>
+        <p>
+          First factor out the GCF 2 to get <m>2(x^2+10x+48)</m>. We now want to create a perfect square trinomial for what is inside the parentheses. To do this, divide
+          the number in the middle term by two and then square it. <m>10/2 = 5</m> and <m>(5)^2 = 25</m>. Now add and subtract this to our expression. 
+          <m>2(x^2+10x+25-25+48)</m>. The first three terms now inside the parentheses form a perfect square trinomial. <m>x^2+10x+25 = (x+5)^2</m>. 
+          Add <m>-25+48 = 23</m>. Our original expression is now <m>2((x+5)^2+23) = 2(x+5)^2+46</m>
+        </p>
+        </solution>
+</example>
+<p>
+    <alert>Try it Now!</alert>
+</p>
+<exercise>
+    <introduction>
+    <p>
+        Complete the square of the following quadratic expressions.
+    </p>
+    </introduction>
+    <task workspace="1.5in">
+        <statement>
+            <p>
+                <m>x^2+8x+12</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.5in">
+        <statement>
+            <p>
+                <m>x^2+4x-45</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.5in">
+        <statement>
+            <p>
+                <m>x^2+11x+24</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.5in">
+        <statement>
+            <p>
+                <m>2x^2+8x+14</m>
+            </p>
+        </statement>
+    </task>
+</exercise>
 </worksheet>

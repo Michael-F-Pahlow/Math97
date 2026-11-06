@@ -1,3 +1,306 @@
 <worksheet>
 <title>Graphing Quadratic Functions</title>
+<page>
+<objectives>
+    <introduction>
+        <p>
+            In this section we will see how to:
+        </p>
+    </introduction>
+    <ul>
+        <li>
+            <p>
+                Graph a quadratic equation in standard form.
+            </p>
+        </li>
+        <li>
+            <p>
+                Graph a quadratic equation in factored form.
+            </p>
+        </li>
+        <li>
+            <p>
+                Convert a quadratic equation into vertex form.
+            </p>
+        </li>
+        <li>
+            <p>
+                Graph a quadratic equation in vertex form.
+            </p>
+        </li>
+    </ul>
+</objectives>
+<p>
+    The graph of a quadratic function is called a <term>parabola</term> and it looks like this:
+</p>
+<figure xml:id="parabola">
+        <caption>The graph of a parabola</caption>
+        <image width="50%">
+        <shortdescription>The graph of the function y=x^2</shortdescription>
+        <prefigure label="pf-97g3" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)">
+          <definition> f(x) = x^2</definition>
+          <coordinates bbox="(-6,-6,6,6)">
+            <grid-axes bounding-box="yes"/>
+            <graph function="f"/>
+            </coordinates>
+          </diagram>
+        </prefigure>
+      </image>
+    </figure>
+    </page>
+<page>
+    <p>
+        Similar to how we graph linear equation (line), we can graph several points and connect them to make the above shape. 
+    </p>
+    <example>
+        <p>
+            Graph the quadratic function <m>f(x) = x^2+4x+3</m>.
+        </p>
+        <p>
+            Evaluate the function at several points and then plot those points. When you have enough points to see the outline of a parabola, connect them to complete the graph.
+        </p>
+        <p>
+            <m>f(1) = 8</m>, <m>f(0) = 3</m>, <m>f(-1) = 0</m>, <m>f(-2) = -1</m>, <m>f(-3) = 0</m>, <m>f(-4) = 3</m>, <m>f(-5) = 8</m>
+        </p>
+        <sidebyside widths = "45% 10% 45%">
+           <image width="75%">
+        <shortdescription>points on the graph of y = x^2+4x+3</shortdescription>
+        <prefigure label="pf-97g4" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)">
+          <coordinates bbox="(-10,-10,10,10)">
+            <grid-axes spacings="((-9,1,9),(-9,1,9))" hticks="(-9,1,9)" hlabels="(-8,2,8)" vticks="(-9,1,9)" vlabels="(-8,2,8)" bounding-box="yes" xlabel="x" ylabel="y"/>
+            <point p="(1,8)"/>
+                <point p="(0,3)"/>
+                    <point p="(-1,0)"/>
+                        <point p="(-2,-1)"/>
+                            <point p="(-3,0)"/>
+                                <point p="(-4,3)"/>
+                                    <point p="(-5,8)"/>
+            </coordinates>
+          </diagram>
+        </prefigure>
+      </image>
+    <p>
+        
+    </p>
+    <image width="75%">
+        <shortdescription>the graph of y = x^2+4x+3</shortdescription>
+        <prefigure label="pf-97g5" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)">
+        <definition> f(x) =x^2+4*x+3 </definition>
+          <coordinates bbox="(-10,-10,10,10)">
+            <grid-axes spacings="((-9,1,9),(-9,1,9))" hticks="(-9,1,9)" hlabels="(-8,2,8)" vticks="(-9,1,9)" vlabels="(-8,2,8)" bounding-box="yes" xlabel="x" ylabel="y"/>
+            <point p="(1,8)"/>
+                <point p="(0,3)"/>
+                    <point p="(-1,0)"/>
+                        <point p="(-2,-1)"/>
+                            <point p="(-3,0)"/>
+                                <point p="(-4,3)"/>
+                                    <point p="(-5,8)"/>
+                                        <graph function="f"/>
+            </coordinates>
+          </diagram>
+        </prefigure>
+      </image>
+    </sidebyside>
+    </example>
+    <p>
+        Notice that the point at <m>x=0</m> is easy to evaluate and is the <m>y</m>-intercept! In standard form, the constant on the end is the <m>y</m>-intercept and is
+        a good place to start your graph.
+    </p>
+    <p>
+        Two other points that are easy to graph are the <m>x</m>-intercepts. These are easiest to find if the equation is in factored form. We also saw in a previous section,
+        that the vertex is the midpoint between the two <m>x-</m>intercepts, so it can be easily added to the graph after we plot the <m>x</m>-intercepts.
+    </p>
+    <example>
+    <p>
+        Graph the quadratic function <m>f(x)=\frac{1}{2}(x-4)(x+2)</m>.
+    </p>
+    <p>
+        The <m>x</m>-intercepts are <m>x=4</m> and <m>x=-2</m>. The midpoint between <m>x=4</m> and <m>x=-2</m> is <m>x=1</m>. Evaluate <m>f(1) =\frac{1}{2}(1-4)(1+2) = -\frac{9}{2}</m>.
+        One more easy point to graph is the <m>y-</m>-intercept. <m>f(0) = \frac{1}{2}(0-4)(0+2) = -4</m>
+    </p>
+    <image width="50%">
+        <shortdescription>the graph of y = 1/2(x-4)(x+2)</shortdescription>
+        <prefigure label="pf-97g6" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)">
+        <definition> f(x) =0.5*(x-4)*(x+2) </definition>
+          <coordinates bbox="(-10,-10,10,10)">
+            <grid-axes spacings="((-9,1,9),(-9,1,9))" hticks="(-9,1,9)" hlabels="(-8,2,8)" vticks="(-9,1,9)" vlabels="(-8,2,8)" bounding-box="yes" xlabel="x" ylabel="y"/>
+            <point p="(4,0)"/>
+                <point p="(-2,0)"/>
+                    <point p="(0,-4)"/>
+                        <point p="(1,-4.5)"/>
+                             <graph function="f"/>
+            </coordinates>
+          </diagram>
+        </prefigure>
+      </image>
+    </example>
+    <p>
+        The key point on a parabola is the vertex. If you know the vertex and one other point, like the <m>y</m>-intercept, you can most easily graph a parabola. A quadratic 
+        equation can be written in <term>vertex form</term>, <m>f(x) = a(x-h)^2+k</m>, where the vertex is at the point <m>(h,k)</m>. Note that the negative sign is built into
+        the formula so that <m>f(x) = 2(x-4)^2+7</m> has vertex <m>(4,7)</m> and <m>f(x)=2(x+4)^2+7=2(x-(-4))^2+7</m> has vertex <m>(-4,7)</m>.
+    </p>
+    <example>
+        <p>
+            Graph the quadratic function <m>f(x)=(x+1)^2-2</m>.
+        </p>
+        <p>
+            This function has vertex at <m>(-1,-2)</m>. Evaluate <m>f(0) = (0+1)^2-2 = -1</m> giving us a second point <m>(0,-1)</m>. 
+        </p>
+        <image width="50%">
+        <shortdescription>the graph of y = 1/2(x-4)(x+2)</shortdescription>
+        <prefigure label="pf-97g7" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)">
+        <definition> f(x) =(x+1)^2-2 </definition>
+          <coordinates bbox="(-10,-10,10,10)">
+            <grid-axes spacings="((-9,1,9),(-9,1,9))" hticks="(-9,1,9)" hlabels="(-8,2,8)" vticks="(-9,1,9)" vlabels="(-8,2,8)" bounding-box="yes" xlabel="x" ylabel="y"/>
+            <point p="(-1,-2)"/>
+                <point p="(0,-1)"/>
+                    <graph function="f"/>
+            </coordinates>
+          </diagram>
+        </prefigure>
+      </image>
+    </example>
+    <p>
+        The simplest way to graph a quadratic function is to know its vertex and a second point. How do we convert a quadratic equation from standard form to vertex form?
+        We factor out a GCF and complete the square! 
+    </p>
+    <example>
+    <statement>
+        <p>
+           Convert <m>f(x) = -2x^2-8x+2</m> 
+        </p>
+    </statement>
+        <answer>
+            <p>
+                <m>f(x) =-2(x+2)^2+10</m>
+            </p>
+        </answer>
+        <solution>
+            <p>
+                Factor out the GFC of -2. <m>f(x) = -2x^2-8x+2=-2(x^2+4x-1)</m>. Complete the square inside the parentheses. <m>f(x)=-2(x^2+4x+4-4-1) = -2((x+2)^2-5)</m>. 
+                Redistribute the -2 to get the vertex form. <m>f(x)=-2(x+2)^2+10</m>.
+            </p>
+        </solution>
+    </example>
+    </page>
+<page>
+    <p>
+        <alert>Try it Now!</alert>
+    </p>
+    <exercise>
+        <introduction>
+        <p>
+            Convert the following quadratic functions to vertex form.
+            </p>
+        </introduction>
+        <task workspace="1.5in">
+            <statement>
+                <p>
+                    <m>f(x)=x^2+8x+15</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="1.5in">
+            <statement>
+                <p>
+                    <m>f(x)=4x^2-4x+1</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="1.5in">
+            <statement>
+                <p>
+                    <m>f(x)=-x^2+6x-13</m>
+                </p>
+            </statement>
+        </task>
+    </exercise>
+    </page>
+<page>
+    <exercise>
+        <introduction>
+            <p>
+                Sketch an accurate graph of the following quadratic functions.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>f(x)=x^2-4x-5</m>
+                </p>
+            
+            <image width="50%">
+        <shortdescription>a blank x-y axes</shortdescription>
+        <prefigure label="pf-97g8" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)">
+         <coordinates bbox="(-10,-10,10,10)">
+            <grid-axes spacings="((-9,1,9),(-9,1,9))" hticks="(-9,1,9)" hlabels="(-8,2,8)" vticks="(-9,1,9)" vlabels="(-8,2,8)" bounding-box="yes" xlabel="x" ylabel="y"/>
+            </coordinates>
+          </diagram>
+        </prefigure>
+      </image>
+      </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>f(x)=\frac{1}{3}(x+3)(x-5)</m>
+                </p>
+            
+            <image width="50%">
+        <shortdescription>a blank x-y axes</shortdescription>
+        <prefigure label="pf-97g9" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)">
+         <coordinates bbox="(-10,-10,10,10)">
+            <grid-axes spacings="((-9,1,9),(-9,1,9))" hticks="(-9,1,9)" hlabels="(-8,2,8)" vticks="(-9,1,9)" vlabels="(-8,2,8)" bounding-box="yes" xlabel="x" ylabel="y"/>
+            </coordinates>
+          </diagram>
+        </prefigure>
+      </image>
+      </statement>
+        </task>
+         <task>
+            <statement>
+                <p>
+                    <m>f(x)=(x+3)^2-2</m>
+                </p>
+            
+            <image width="50%">
+        <shortdescription>a blank x-y axes</shortdescription>
+        <prefigure label="pf-97g10" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)">
+         <coordinates bbox="(-10,-10,10,10)">
+            <grid-axes spacings="((-9,1,9),(-9,1,9))" hticks="(-9,1,9)" hlabels="(-8,2,8)" vticks="(-9,1,9)" vlabels="(-8,2,8)" bounding-box="yes" xlabel="x" ylabel="y"/>
+            </coordinates>
+          </diagram>
+        </prefigure>
+      </image>
+      </statement>
+        </task>
+         <task>
+            <statement>
+                <p>
+                    <m>f(x)=2(x-4)^2-3</m>
+                </p>
+           
+            <image width="50%">
+        <shortdescription>a blank x-y axes</shortdescription>
+        <prefigure label="pf-97g11" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)">
+         <coordinates bbox="(-10,-10,10,10)">
+            <grid-axes spacings="((-9,1,9),(-9,1,9))" hticks="(-9,1,9)" hlabels="(-8,2,8)" vticks="(-9,1,9)" vlabels="(-8,2,8)" bounding-box="yes" xlabel="x" ylabel="y"/>
+            </coordinates>
+          </diagram>
+        </prefigure>
+      </image>
+        
+         </statement>
+         </task>
+    </exercise>
+    </page>
 </worksheet>

@@ -1,3 +1,142 @@
 <worksheet>
 <title>Quadratic Functions</title>
+<page>
+<objectives>
+    <introduction>
+        <p>
+            In this section we will see how to:
+        </p>
+    </introduction>
+    <ul>
+        <li>
+            <p>
+                Evaluate a function.
+            </p>
+        </li>
+        <li>
+            <p>
+                Use function notation.
+            </p>
+        </li>
+    </ul>
+</objectives>
+<p>
+    A <term>function</term> is a relationship where for each value of the input, there is exactly one output value. In terms of algebraic equations, a function is an equation 
+    where you can isolate <m>y</m>, the output variable.
+</p>
+<sidebyside>
+    <p>
+        <alert>Function:</alert> <m>y = x^2-3x</m>
+    </p>
+    <p>
+        <alert>Non-Function:</alert> <m>x^2+y^2 = 25</m>
+    </p>
+</sidebyside>
+<p>
+    For graphs, the graph of a function, passes the <term>vertical line test</term>. That is, every vertical intersects the graph at most one time. The graph of an equation,
+    that is not a function, is said to fail the <term>vertical line test</term> when a vertical line intersects the graph more than once.
+</p>
+<sidebyside widths = "45% 10% 45%">
+    <figure xml:id="functiongraph">
+        <caption>The graph of the function <m>y=x^2-3x</m></caption>
+        <image width="75%">
+        <shortdescription>The graph of the function y=x^2-3x</shortdescription>
+        <prefigure label="pf-97g1" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)">
+          <definition> f(x) = x^2-3*x</definition>
+          <coordinates bbox="(-6,-6,6,6)">
+            <grid-axes xlabel="x" ylabel="y" bounding-box="yes"/>
+            <graph function="f"/>
+            </coordinates>
+          </diagram>
+        </prefigure>
+      </image>
+    </figure>
+    <p>
+        
+    </p>
+    <figure xml:id="nonfunctiongraph">
+        <caption>The graph of the equation <m>x^2+y^2=25</m></caption>
+        <image idth="75%">
+        <shortdescription>A circle of radius 5 centered at the origin</shortdescription>
+        <prefigure label="pf-97g2" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)">
+          <coordinates xlabel="x" ylabel="y" bbox="(-6,-6,6,6)">
+            <grid-axes bounding-box="yes"/>
+            <circle center="(0,0)" radius="5"/>
+            </coordinates>
+          </diagram>
+        </prefigure>
+      </image>
+    </figure>
+</sidebyside>
+<p>
+    When you input a value into a function it is called <term>evaluating</term> a function. For example, if you let <m>x=2</m> for the function <m>y=x^2-3x</m>, then
+    <m>y = 2^2-3(2) = -2</m>.
+</p>
+<p>
+    It can be awkward to write <q>Let <m>x=</m>...</q> every time you want to evaluate a function. Instead we can use function notation. <term>Function notation</term> replaces 
+    <m>y</m> with <m>f(x)</m>, where <m>f</m> stands for function. Now we can simply replace the <m>x</m> in the parentheses with a value to indicate that we want to evaluate
+    the function and then replace the <m>x</m>'s on the right side with the same value.
+</p>
+<example>
+    <statement>
+        <p>
+            Evaluate <m>f(3)</m> for <m>f(x) = 3x^2-5x+4</m>
+        </p>
+    </statement>
+    <solution>
+        <p>
+            <m>f(3) = 3(3)^2-5(3)+4=16</m>
+        </p>
+    </solution>
+</example>
+</page>
+<page>
+<p>
+    <alert>Try it Now!</alert>
+</p>
+<exercise>
+    <introduction>
+        <p>
+            Evaluate the quadratic function <m>f(x) = -2x^2+9x-6</m> at the following values:
+        </p>
+    </introduction>
+    <task workspace="0.75in">
+        <statement>
+            <p>
+               <m>f(2)</m> 
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.75in">
+        <statement>
+            <p>
+               <m>f(-1)</m> 
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.75in">
+        <statement>
+            <p>
+               <m>f(0)</m> 
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.75in">
+        <statement>
+            <p>
+               <m>f(25)</m> (Use your calculator!)
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.75in">
+        <statement>
+            <p>
+               <m>f(-12.47)</m> (Use your calculator!)
+            </p>
+        </statement>
+    </task>
+</exercise>
+</page>
 </worksheet>

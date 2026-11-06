@@ -1,3 +1,215 @@
 <worksheet>
 <title>Applications of Quadratic Equations</title>
+<page>
+<objectives>
+    <introduction>
+        <p>
+            In this section we will see how to:
+        </p>
+    </introduction>
+    <ul>
+        <li>
+            <p>
+                Solve a general quadratic application.
+            </p>
+        </li>
+        <li>
+            <p>
+                Solve a projectile motion application.
+            </p>
+        </li>
+        <li>
+            <p>
+                Solve a basic economics problem.
+            </p>
+        </li>
+        <li>
+            <p>
+                Solve a geometry application problem.
+            </p>
+        </li>
+    </ul>
+</objectives>
+<p>
+    When solving a quadratic application problem, we may be trying to determine either the <m>y</m>-intercept, the <m>x</m>-intercepts or the vertex of a quadratic equation.
+    If we are trying to determine the <m>y</m>-intercept, we are looking for terms like starting point or initial value since the <m>y</m>-intercept occurs when <m>x=0</m>. 
+    Some key terms we might see for the <m>x</m>-intercepts are questions asking for an amount (of <m>x</m>, "how many...?") or a time (<q>when does...?</q>). If a 
+    question is looking for the vertex, which is the highest or lowest point on a quadratic equation, it will ask about a maximum (highest) or minimum (lowest).
+</p>
+<example>
+    <title>A General Quadratic Application</title>
+    <statement>
+        <p>
+            Khan Noonien Singh has set the stolen Genesis device to detonate to destroy the Enterprise, Captain Kirk and his crew. When the Genesis device charges to 30 it 
+            will explode. The equation <m>c=t^2-2t+22</m> models the device charging where <m>t</m> is the time in minutes and <m>c</m> is the charge. How long does the crew
+            of the Enterprise have to escape?
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <m>t = 4</m> minutes.
+        </p>
+    </answer>
+    <solution>
+        <p>
+            We are given a value for <m>c</m> of 30. Substitute this into the equation to get <m>30=t^2-2t+22</m>. Subtract 30 from both sides <m>0=t^2-2t-8</m>. The question
+            is asking for a time (<q>How long...?</q>), so this is asking us to solve for the <m>t</m>intercepts of this transformed equation. Solve by factoring.
+            <m>0=t^2-2t-8=(t-4)(t+2) \rightarrow t = -2</m> and <m>t=4</m>. Since time cannot be a negative value in this question, the solution is <m>t = 4</m> minutes.
+        </p>
+    </solution>
+</example>
+</page>
+<page>
+<example>
+    <title>Projectile Motion</title>
+    <statement>
+        <p>
+           A firecracker is fired straight up into the air out of a window of a building. Its height, in feet, is given by <m>h=-16t^2+32t+128</m>, where <m>t</m> is the time
+           in seconds, the  firecracker has been in the air.
+           <ol marker="(a)">
+            <li>
+                <p>
+                   How high up is the window? 
+                </p>
+            </li>
+            <li>
+                <p>
+                    When does the firecracker hit the ground?
+                </p>
+            </li>
+            <li>
+                <p>
+                   What is the maximum height of the firecracker? 
+                </p>
+            </li>
+           </ol> 
+        </p>
+    </statement>
+    <answer>
+        <p>
+            (a) 128 feet. (b) 4 seconds. (c) 144 feet
+        </p>
+    </answer>
+    <solution>
+        <p>
+            Part (a) is asking about the <m>y</m> or <m>h</m>-intercept, since it is asking about the height when <m>t=0</m>. Letting <m>t=0</m>, gives <m>h=128</m> feet. Part
+            (b) is asking about <m>t</m>-intercepts, since it asks <q>when does...?</q> and the ground is also where <m>h=0</m>. Setting <m>h=0</m> and factoring gives
+            <m>0 = -16t^2+32t+128 = -16(t^2-2t-8) = -16(t+2)(t-4)</m> and <m>t=4</m> seconds is the only meaningful solution. Part (c) is asking about the vertex (maximum height).
+            Due to the symmetry of a quadratic equation or parabola, the vertex is always at the midpoint between the <m>x</m>-intercepts. If we know the <m>x</m>-intercepts,
+            we can find the <m>x</m>-value of the vertex. Here the <m>x</m> or <m>t</m> intercepts are -2 and 4. The midpoint between -2 and 4 is <m>t=1</m>. Substitute 
+            <m>t=1</m> into the height equation to get a maximum height <m>h=-16(1)^2 +32(1)+128 = 144</m>.
+        </p>
+    </solution>
+</example>
+</page>
+<page>
+<example>
+    <title>A Economics Application</title>
+    <statement>
+        <p>
+            A coffee shop currently sells 300 lattes a day at $3.00 each. They recently tried raising the by price by $0.25 a latte, and found that they sold 40 less lattes a day.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                   Assume that the number of lattes they sell in a day, <m>N</m>, linearly related to the sale price, <m>p</m> (in dollars). Find an equation for <m>N</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Revenue (the amount of money the store brings in before costs) can be found by multiplying the cost per cup times the number of cups sold. 
+                    Again using <m>p</m> as the sales price, use your equation from above to write an equation for the revenue, <m>R</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    The store wants to maximize their revenue (make as much money as possible). Find the value of <m>p</m> that will maximize the revenue
+                    (round to the nearest cent) and the maximum revenue.
+                </p>
+            </li>
+        </ol>
+    </statement>
+    <answer>
+        <p>
+            (a) <m>N=-160p+780</m>. (b) <m>R=-160p^2+780p</m> (c) <m>p = \$ 2.44</m> and <m>R = \$ 950.63</m>
+        </p>
+    </answer>
+    <solution>
+        <p>
+            (a) We are given two points about the price and the number of lattes sold. <m>(p,N) = (3, 300)</m> and <m>(p,N) = (3.25, 260)</m>. Use these points to form a
+            linear equation. Slope = -160. In point-slope form, <m>N = -160(p-3)+300</m> and in slope-intercept form <m>N=-160p+780</m>. (b) Multiply the equation for the 
+            number of lattes by <m>p</m> to get revenue, <m>R=-160p^2+780</m>. (c) Find the vertex fo this quadratic equation. At the vertex, <m>p=-b/2a = - 780/(-320) = 2.44</m>.
+            Substitute <m>p=2.44</m> into the revenue equation to get <m>R = -160(2.44)^2+780(2.44) = 950.62</m>
+        </p>
+    </solution>
+</example>
+</page>
+<page>
+<example>
+    <title>A Geometry Problem</title>
+    <statement>
+        <p>
+            Shannon is having a rectangular swimming pool installed in her backyard. The plan for the pool shows an area of 255 square feet and the length has to be 
+            two feet more than the width. What is the length of Shannon's swimming pool?
+        </p>
+    </statement>
+    <answer>
+        <p>
+            17 feet
+        </p>
+    </answer>
+    <solution>
+        <p>
+            The area of a rectangle is length <m>\times</m> width. Let <m>w</m> be the width of the pool. The length is 2 feet longer than the width, so <m>l=w+2</m>. Area
+            in terms of <m>w</m> is <m>255=(w)(w+2) = w^2+2w \rightarrow 0 = w^2 + 2w -255 = (w-15)(w+17)</m> gives <m>w=15</m> feet and the length is 2 feet longer or 17 feet.
+        </p>
+    </solution>
+</example>
+</page>
+<page>
+<p>
+    <alert>Try it Now!</alert>
+</p>
+<exercise workspace="3.0in">
+    <p>
+       An alligator population in Florida's Cedar Grove State Park is given by <m>A = 2t^2+3t +27</m>, where <m>A</m> is the alligator population in hundreds and <m>t</m> is the 
+       number of years since 1990. When were there 4100 alligators in the park?
+    </p>
+</exercise>
+<exercise workspace="3.0in">
+    <p>
+        A ball is launched vertically in the air with a velocity of 160 feet per second. Use the formula <m>h = -16t^2 + 160T</m> to determine when the ball is 384 feet from
+        the ground.
+    </p>
+</exercise>
+</page>
+<page>
+<exercise workspace="3.0in">
+<p>
+   A water balloon is launched upward at a rate of 86 feet per second. Using the formula <m>h = -16t^2 + 86t</m>, find how long it will take the balloon to reach the maximum
+   height and then find the maximum height.
+</p>
+</exercise>
+<exercise workspace="3.0in">
+    <p>
+        The front walk from the street to Pam’s house has an area of 250 square feet. Its length is two less than four times its width. 
+        Find the length and width of the sidewalk. 
+    </p>
+</exercise>
+</page>
+<page>
+<exercise workspace="3.0in">
+    <p>
+        A Pop-Warner football punter kicks the ball at about the 6 yard line. The equation <m>h = -x^2+16x-60</m> models the flight of the ball where <m>h</m> is the height 
+        of the ball and <m>x</m> is the yard line that the ball is on. At what yard line does the ball hit the ground? What is the maximum height of the ball?
+    </p>
+</exercise>
+<exercise workspace="3.0in">
+    <p>
+        The number of bicycles sold <m>x</m> is related to the price <m>p</m> by the equation <m>x=2000-2p</m>. (a) Write the price as a linear equation as a function of 
+        bicycles sold. (Solve for <m>p</m>.) (b) Revenue is price per item multiplied by items sold. Write the revenue as a quadratic function of <m>x</m>. Now find the (c) 
+        maximum revenue, the (d) number of bicycles to achieve the maximum revenue and (e) the price at the maximum revenue.
+    </p>
+</exercise>
+</page>
 </worksheet>

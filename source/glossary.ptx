@@ -17,6 +17,20 @@
 </gi>
 
 <gi>
+<title>Function</title>
+<p>
+    A function is a relationship that for each input value, there is exactly one output value.
+</p>
+</gi>
+
+<gi>
+<title>Function Notation</title>
+<p>
+    Replaces <m>y</m> with <m>f(x)</m> in an equation where <m>x</m> is the input value.
+</p>
+</gi>
+
+<gi>
 <title>Greatest Common Factor</title>
 <p>
     GCF for short. The greatest common factor, is largest combination of numbers and variables that can be factored out from each term of
@@ -29,6 +43,14 @@
 <p>
     A technique of factoring where you start with an equal number of groups. Factor the GCF out of each group then factor again to get two, multi-term factors.
 </p>
+</gi>
+
+<gi>
+<title>Parabola</title>
+<p>
+    The graph of a quadratic function.
+</p>
+
 </gi>
 
 <gi>
@@ -46,6 +68,14 @@
 </gi>
 
 <gi>
+<title>Rational Expression</title>
+<p>
+    A rational expression is a ratio of polynomials.
+</p>
+
+</gi>
+
+<gi>
 <title>Square Root</title>
 <p>
     The inverse process of squaring.
@@ -56,6 +86,13 @@
 <title>Standard Form</title>
 <p>
     A quadratic equation written as <m>y=ax^2 + bx +c</m> or <m>ax^2 + bx  =c = 0</m>.
+</p>
+</gi>
+
+<gi>
+<title>Vertical Line Test</title>
+<p>
+    For the graph of a function, every vertical line intersects the graph at most one time.
 </p>
 </gi>
 

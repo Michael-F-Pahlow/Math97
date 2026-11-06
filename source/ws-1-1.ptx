@@ -1,6 +1,7 @@
 <worksheet>
-<title>Factoring by Grouping</title>
 
+<title>Factoring by Grouping</title>
+<page>
 <objectives>
 <introduction>
     <p>
@@ -77,6 +78,8 @@
     </p>
 </solution>
 </example>
+</page>
+<page>
 <p>
 <alert>Try it Now!</alert>
 </p>
@@ -108,6 +111,8 @@
         </statement>
     </task>
 </exercise>
+</page>
+<page>
 <p>
    Once you identify the GCF, you want to factor this out of each term. What is remaining from each term forms the other factor.
 </p>
@@ -181,6 +186,8 @@
             </statement>
         </task>
     </exercise>
+    </page>
+    <page>
     <p>
         We can go one step further with factoring if we start with an even number of terms. This technique is called factoring by <term>grouping</term>. 
         We need and even number of terms so that we can form equal sized groups.
@@ -254,4 +261,5 @@
             </statement>
         </task>
     </exercise>
+    </page>
 </worksheet>

@@ -1,5 +1,6 @@
 <worksheet>
 <title>Special Factoring</title>
+<page>
 <objectives>
     <introduction>
         <p>
@@ -117,6 +118,8 @@
         </p>
     </solution>
 </example>
+</page>
+<page>
 <p>
     <alert>Try it Now!</alert>
 </p>
@@ -176,4 +179,5 @@
         </statement>
     </task>
 </exercise>
+</page>
 </worksheet>

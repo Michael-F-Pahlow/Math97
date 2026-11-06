@@ -1,5 +1,6 @@
 <worksheet>
 <title>Solving Quadratic Equations Using the Quadratic Formula</title>
+<page>
 <objectives>
     <introduction>
         <p>
@@ -196,9 +197,12 @@
     </p>
     
 </assemblage>
+</page>
+<page>
 <p>
     <alert>Try it Now!</alert>
 </p>
+
 <exercise>
     <introduction>
         <p>
@@ -248,4 +252,5 @@
         </statement>
     </task>
 </exercise>
+</page>
 </worksheet>

@@ -1,5 +1,6 @@
 <worksheet>
 <title>Factoring Trinomials - Part 2</title>
+<page>
 <objectives>
     <introduction>
         <p>
@@ -77,6 +78,8 @@
         </p>
     </solution>
 </example>
+</page>
+<page>
 <p>
     <alert>Try it Now!</alert>
 </p>
@@ -86,42 +89,42 @@
         Factor the following expressions completely.  
     </p>
     </introduction>
-    <task workspace="1.0in">
+    <task workspace="1.5in">
         <statement>
             <p>
                 <m>8x^2+22x+5</m>
             </p>
         </statement>
     </task>
-    <task workspace="1.0in">
+    <task workspace="1.5in">
         <statement>
             <p>
                 <m>6x^2-47x+35</m>
             </p>
         </statement>
     </task>
-    <task workspace="1.0in">
+    <task workspace="1.5in">
         <statement>
             <p>
                 <m>5x^2-11x-12</m>
             </p>
         </statement>
     </task>
-    <task workspace="1.0in">
+    <task workspace="1.5in">
         <statement>
             <p>
                 <m>4x^2+25x-21</m>
             </p>
         </statement>
     </task>
-    <task workspace="1.0in">
+    <task workspace="1.5in">
         <statement>
             <p>
                 <m>24x62-6X-9</m>
             </p>
         </statement>
     </task>
-    <task workspace="1.0in">
+    <task workspace="1.5in">
         <statement>
             <p>
                 <m>5x^2+30X+45</m>
@@ -129,4 +132,5 @@
         </statement>
     </task>
 </exercise>
+</page>
 </worksheet>
