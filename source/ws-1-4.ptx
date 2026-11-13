@@ -1,4 +1,4 @@
-<worksheet>
+<handout>
 <title>Special Factoring</title>
 <page>
 <objectives>
@@ -25,9 +25,8 @@
     where <m>a^2x^2 + 2acx + c^2 = (ax+c)^2</m> and difference of squares, where <m>a^2x^2 - c^2 = (ax+c)(ax-c)</m>. Note that <m>ax^2 + c^2</m> is not a special factoring pattern
     and does not factor into whole numbers. We will see what to do with this pattern in a later section.
 </p>
-<example>
-    <title>Factor the Perfect Square Trinomial</title>
-    <statement>
+<example workspace="1.0in">
+        <statement>
         <p>
             Factor <m>x^2-16x+64</m>
         </p>
@@ -44,9 +43,8 @@
         </p>
     </solution>
 </example>
-<example>
-    <title>Factor the Perfect Square Trinomial</title>
-    <statement>
+<example workspace="1.0in">
+        <statement>
         <p>
             Factor <m>25x^2+120x+144</m>
         </p>
@@ -63,9 +61,10 @@
         </p>
     </solution>
 </example>
-<example>
-    <title>Factor the Difference of Squares</title>
-    <statement>
+</page>
+<page>
+<example workspace="2.0in">
+        <statement>
         <p>
             Factor <m>x^2-25</m>
         </p>
@@ -81,9 +80,8 @@
         </p>
     </solution>
 </example>
-<example>
-    <title>Factor the Difference of Squares</title>
-    <statement>
+<example workspace="2.0in">
+        <statement>
         <p>
             Factor <m>25x^2-49</m>
         </p>
@@ -99,9 +97,8 @@
         </p>
     </solution>
 </example>
-<example>
-    <title>Factor the Difference of Squares</title>
-    <statement>
+<example workspace="2.0in">
+        <statement>
         <p>
             Factor <m>45-5x^2</m>
         </p>
@@ -120,64 +117,40 @@
 </example>
 </page>
 <page>
-<p>
-    <alert>Try it Now!</alert>
-</p>
-<exercise>
-    <introduction>
+<paragraphs>
+    <title>Try it Now!</title>
     <p>
         Factor the following expressions completely.
     </p>
-    </introduction>
-    <task workspace="1.0in">
-        <statement>
-            <p>
+    
+            <p workspace="1.75in">
                 <m>x^2+4x+4</m>
             </p>
-        </statement>
-    </task>
-    <task workspace="1.0in">
-        <statement>
-            <p>
+        
+            <p workspace="1.75in">
                 <m>9x^2+24x+16</m>
             </p>
-        </statement>
-    </task>
-    <task workspace="1.0in">
-        <statement>
-            <p>
+        
+            <p workspace="1.75in">
                 <m>16x^2-72x+81</m>
             </p>
-        </statement>
-    </task>
-    <task workspace="1.0in">
-        <statement>
-            <p>
+        
+            <p workspace="1.75in">
                 <m>x^2-81</m>
             </p>
-        </statement>
-    </task>
-    <task workspace="1.0in">
-        <statement>
-            <p>
+        
+            <p workspace="1.75in">
                 <m>49x^2-25</m>
             </p>
-        </statement>
-    </task>
-    <task workspace="1.0in">
-        <statement>
-            <p>
+        
+            <p workspace="1.75in">
                 <m>25-4x^2</m>
             </p>
-        </statement>
-    </task>
-    <task workspace="1.0in">
-        <statement>
-            <p>
+        
+            <p workspace="1.75in">
                 <m>25x^2+225</m>
             </p>
-        </statement>
-    </task>
-</exercise>
+        
+</paragraphs>
 </page>
-</worksheet>
+</handout>

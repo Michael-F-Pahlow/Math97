@@ -1,3 +1,167 @@
-<worksheet>
+<handout>
 <title>Adding and Subtraction Rational Expressions</title>
-</worksheet>
+<page>
+    <objectives>
+    <introduction>
+        <p>
+            In this section we will see how to:
+        </p>
+    </introduction>
+    <ul>
+        <li>
+            <p>
+                Add and subtract rational expressions with a common denominator.
+            </p>
+        </li>
+        <li>
+            <p>
+                Find a common denominator.
+            </p>
+        </li>
+        <li>
+            <p>
+                Add and subtract rational expressions with different denominators.
+            </p>
+        </li>
+    </ul>
+    </objectives>
+    <p>
+        Recall, that to be able to add or subtract fractions, the fractions need the same, common denominator. The same is true for rational expressions.
+    </p>
+    <example workspace="2.5in">
+    <statement>
+        <p>
+          Add: <m> \frac{8x-9}{7} + \frac{10x-8}{7}</m>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <m>\frac{18x-17}{7}</m>
+        </p>
+    </answer>
+    <solution>
+        <p>
+            Since there is a common denominator, add the like terms in the denominator. 
+        <md>
+        \frac{8x-9}{7} + \frac{10x-8}{7} = \frac{8x+10x-9-8}{7} = \frac{18x-17}{7}
+        </md>
+        </p>
+    </solution>
+    </example>
+    <p>
+        Note that for subtracting, you need to distribute the minus sign through the numerator of the second fraction.
+    </p>
+    <example workspace="2.5in">
+        <statement>
+            <p>
+                Subtract: <m>\frac{5x+5}{10} - \frac{8x-3}{10}</m>
+            </p>
+        </statement>
+        <answer>
+            <p>
+                <m>\frac{-3x+8}{10}</m>
+            </p>
+        </answer>
+        <solution>
+            <p>
+            Since there is a common denominator, we can combine the like terms in the numerator, remembering to distribute a minus sign through the second set of terms.
+            <md>
+                \frac{5x+5}{10} - \frac{8x-3}{10} = \frac{5x+5-(8x-3)}{10} = \frac{5x+5-8x+3}{10} = \frac{-3x+8}{10}
+            </md>
+            </p>
+            </solution>
+    </example>
+</page>
+<page>
+    <p>
+     Once, we have added or subtracted rational expressions, the result may sometimes also be simplified. We have seen this before. Factor the numerator and denominator and 
+    cancel out common factors, remembering to say where the denominator is zero.   
+    </p>
+    <example workspace="3.0in">
+    <statement>
+        <p>
+            Add: <m>\frac{x^2+5x}{x^2+2x}+\frac{x^2-4x}{x^2+2x}</m>
+        </p>
+    </statement>
+     <answer>
+        <p>
+            <m>\frac{2x+1}{x+2}</m>, <m>x \ne 0</m>
+        </p>
+    </answer>
+    <solution>
+        <p>
+            Start by combining like terms in the numerator:
+            <md>
+                \frac{x^2+5x}{x^2+2x}+\frac{x^2-4x}{x^2+2x} = \frac{x^2+5x+x^2-4x}{x^2+2x} = \frac{2x^2+x}{x^2+2x}
+            </md>
+            Now factor the numerator and denominator and cancel:
+            <md>
+                \frac{2x^2+x}{x^2+2x} = \frac{x(2x+1)}{x(x+2)} = \frac{2x+1}{x+2}
+            </md>
+            And don't forget to note that <m>x\ne 0</m>.
+        </p>
+    </solution>
+</example>
+<example workspace="3.0in">
+    <statement>
+        <p>
+            Add: <m>\frac{x^2-9x}{x^2+2x-48}-\frac{36-9x}{x^2+2x-48}</m>
+        </p>
+    </statement>
+     <answer>
+        <p>
+            <m>\frac{x+6}{x+8}</m>, <m>x \ne 6</m>
+        </p>
+    </answer>
+    <solution>
+        <p>
+            Start by combining like terms in the numerator:
+            <md>
+                \frac{x^2-9x}{x^2+2x-48}-\frac{36-9x}{x^2+2x-48} = \frac{x^2-9x-(36-9x)}{x^2+2x-48} = \frac{x^2+9x-9x-36}{x^2+2x-48} = \frac{x^2-36}{x^2+2x-48}
+            </md>
+            Now factor the numerator and denominator and cancel:
+            <md>
+                \frac{x^2-36}{x^2+2x-48} = \frac{(x+6)(x-6)}{(x-6)(x+8)} = \frac{x+6}{x+8}
+            </md>
+            And don't forget to note that <m>x\ne 6</m>.
+        </p>
+    </solution>
+</example>
+<p>
+    So far, we have only seen fractions with common denominators. What if we start with rational expressions with different denominators? We need to start by finding
+    a common denominator. Recall from adding and subtracting numerical fractions, you can find a common denominator by first factoring each denominator to see if there are
+    any common factors and then adding factors to each fraction until the denominators match.
+</p>
+<example workspace="2.0in">
+    <statement>
+        <p>
+            Find the common denominator of <m>\frac{6x}{x^2-81} + \frac{x}{x-9}</m>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <m>(x-9)(x+9)</m>
+        </p>
+    </answer>
+    <solution>
+        <p>
+            Factor each denominator to get:
+            <md>
+                \frac{6x}{(x+9)(x-9)} + \frac{x}{x-9}
+            </md>
+            Both denominators include <m>(x-9)</m>. The first fraction also has a <m>(x+9)</m> factor. We need to add this the second fraction so that the fractions now
+            have a common denominator. When we add a new factor to a denominator, we also need to add this factor to the numerator of that fraction.
+            <md>
+                \frac{6x}{(x+9)(x-9)} + \frac{x(x+9)}{(x-9)(x+9)}
+            </md>
+            Leave the denominator factored! Remember we need the denominator factored to further simplify it later.
+        </p>
+    </solution>
+</example>
+</page>
+<page>
+    <p>
+        Once we have a common denominator, we can proceed with adding or subtracting...
+    </p>
+</page>
+</handout>

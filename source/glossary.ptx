@@ -3,6 +3,20 @@
 <idx>glossary</idx>
 
 <gi>
+<title>Complicated Fractions</title>
+<p>
+    A larger fraction made up of smaller fractions. Also called a complex rational expression
+</p>
+</gi>
+
+<gi>
+<title>Extraneous Solution</title>
+<p>
+    A solution from a rational or root equation that when checked in the original equation, make the equation undefined or non-real.
+</p>
+</gi>
+
+<gi>
 <title>Factored Form</title>
 <p>
     An expression or side of an equation that is completely factored. This leads to one way to solve a quadratic equation.
@@ -44,6 +58,12 @@
     A technique of factoring where you start with an equal number of groups. Factor the GCF out of each group then factor again to get two, multi-term factors.
 </p>
 </gi>
+<gi>
+<title>LCD</title>
+<p>
+    The least common denominator from a group of rational expressions.
+</p>
+</gi>
 
 <gi>
 <title>Parabola</title>
@@ -71,6 +91,14 @@
 <title>Rational Expression</title>
 <p>
     A rational expression is a ratio of polynomials.
+</p>
+
+</gi>
+
+<gi>
+<title>Reciprocal</title>
+<p>
+    When you swap the numerator and denominator of a fraction.
 </p>
 
 </gi>

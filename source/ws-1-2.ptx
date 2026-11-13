@@ -1,5 +1,4 @@
-<worksheet>
-
+<handout>
 <title>Factoring Trinomials - Part 1</title>
 <page>
 <objectives>
@@ -21,8 +20,7 @@
     If the trinomial is of the form <m>x^2 + bx +c </m>, we are looking for two numbers that add to <m>b</m> and multiply to <m>c</m>. Sometimes, we 
     may also need to first factor out a GCF. Since these are all three-term expressions, we cannot factor by grouping.
 </p>
-<example>
-<title>Factor</title>
+<example workspace="1.0in">
 <statement>
     <p>
         Factor the expression <m>x^2-3x+2</m>
@@ -44,9 +42,8 @@
     and <m>c</m> are both positive, then the two numbers must both be positive. If <m>b</m> is negative and <m>c</m> is positive, as in the last example, then both numbers
     must be negative. If <m>c</m> is negative, then one number must be positive and the other number must be negative.
 </p>
-<example>
-    <title>Factor</title>
-<statement>
+<example workspace="1.0in">
+    <statement>
     <p>
         Factor the expression <m>x^2+5x+6</m>
     </p>
@@ -62,9 +59,10 @@
     </p>
 </solution>
 </example>
-<example>
-    <title>Factor</title>
-<statement>
+</page>
+<page>
+<example workspace="1.0in">
+    <statement>
     <p>
         Factor the expression <m>x^2+x-56</m>
     </p>
@@ -80,9 +78,8 @@
     </p>
 </solution>
 </example>
-<example>
-    <title>Factor</title>
-<statement>
+<example workspace="1.0in">
+    <statement>
     <p>
         Factor the expression <m>x^2-11x+18</m>
     </p>
@@ -98,9 +95,8 @@
     </p>
 </solution>
 </example>
-<example>
-    <title>Factor</title>
-<statement>
+<example workspace="1.0in">
+    <statement>
     <p>
         Factor the expression <m>x^2-2x-48</m>
     </p>
@@ -119,9 +115,8 @@
 <p>
     Sometimes we must first factor out a GCF. Do not lose the GCF when you factor that trinomial!
 </p>
-<example>
-    <title>Factor</title>
-<statement>
+<example workspace="1.0in">
+    <statement>
     <p>
         Factor the expression <m>4x^2+24x-28</m>
     </p>
@@ -140,65 +135,39 @@
 </example>
 </page>
 <page>
-<p>
-    <alert>Try it Now!</alert>
-</p>
-<exercise>
-    <introduction>
-    <p>
+    <paragraphs>
+        <title>Try it Now!</title>
+    
+  <p>
       Factor the following expressions completely.  
     </p>
-    </introduction>
-    <task workspace="1.0in">
-        <statement>
-            <p>
-                <m>x^2+17x+72</m>
+    <p workspace="2.0in">
+               (a) <m>x^2+17x+72</m>
             </p>
-        </statement>
-    </task>
-    <task workspace="1.0in">
-        <statement>
-            <p>
-                <m>x^2-16x+60</m>
+        
+            <p workspace="2.0in">
+               (b) <m>x^2-16x+60</m>
             </p>
-        </statement>
-    </task>
-    <task workspace="1.0in">
-        <statement>
-            <p>
-                <m>x^2+16x-7</m>
+        
+            <p workspace="2.0in">
+              (c)  <m>x^2+16x-7</m>
             </p>
-        </statement>
-    </task>
-    <task workspace="1.0in">
-        <statement>
-            <p>
-                <m>x^2+3x-54</m>
+        
+            <p workspace="2.0in">
+              (d)  <m>x^2+3x-54</m>
             </p>
-        </statement>
-    </task>
-    <task workspace="1.0in">
-        <statement>
-            <p>
-                <m>x^2-2x-8</m>
+        
+            <p workspace="2.0in">
+              (e)  <m>x^2-2x-8</m>
             </p>
-        </statement>
-    </task>
-    <task workspace="1.0in">
-        <statement>
-            <p>
-                <m>2x^2+18x+16</m>
+        
+            <p workspace="2.0in">
+              (f)  <m>2x^2+18x+16</m>
             </p>
-        </statement>
-    </task>
-
-<task workspace="1.0in">
-        <statement>
-            <p>
-                <m>x^2+11xy+28y^2</m>
+        
+            <p workspace="2.0in">
+              (g)  <m>x^2+11xy+28y^2</m>
             </p>
-        </statement>
-    </task>
-    </exercise>
+        </paragraphs>
     </page>
-</worksheet>
+</handout>

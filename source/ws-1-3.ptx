@@ -1,4 +1,4 @@
-<worksheet>
+<handout>
 <title>Factoring Trinomials - Part 2</title>
 <page>
 <objectives>
@@ -22,8 +22,7 @@
     add to <m>b</m> and multiply to the key number. Then break up <m>b</m> using the two numbers. This will give you four terms. Complete the factoring by grouping. 
 </p>
 <example>
-    <title>Factor</title>
-    <statement>
+        <statement>
         <p>
             Factor the expression <m>2x^2-3x-20</m>.
         </p>
@@ -36,12 +35,13 @@
     <solution>
         <p>
             First multiply 2 and -20 to get the key number of -40. Now look for two numbers that add to -3 and multiply to -40. The two numbers are -8 and 5. Rewrite the expression
-            as <m>2x^2 - 8x + 5x -20</m>. Factor by grouping. <m>2x^2 - 8x + 5x -20 = 2x(x-4) + 5(x-4) = (x-4)(2x+5)</m>
+            as <m>2x^2 - 8x + 5x -20</m>. Factor by grouping. <m>2x^2 - 8x + 5x -20 = 2x(x-4) + 5(x-4) = (x-4)(2x+5)</m>.
         </p>
     </solution>
 </example>
-<example>
-    <title>Factor</title>
+</page>
+<page>
+<example workspace="2.0in">
     <statement>
         <p>
             Factor the expression <m>63x^2-8x-16</m>.
@@ -55,13 +55,12 @@
     <solution>
         <p>
             First multiply 63 and -16 to get the key number of -1008. Now look for two numbers that add to -8 and multiply to -1008. The two numbers are -36 and 28. Rewrite the expression
-            as <m>63x^2 - 36x + 28x -16</m>. Factor by grouping. <m>63x^2 - 36x + 28x -16 = 9x(7x-4) + 4(7x-4) = (7x-4)(9x+4)</m>
+            as <m>63x^2 - 36x + 28x -16</m>. Factor by grouping. <m>63x^2 - 36x + 28x -16 = 9x(7x-4) + 4(7x-4) = (7x-4)(9x+4)</m>.
         </p>
     </solution>
 </example>
-<example>
-    <title>Factor</title>
-    <statement>
+<example workspace="2.0in">
+     <statement>
         <p>
             Factor the expression <m>5x^2+38x+21</m>.
         </p>
@@ -74,63 +73,61 @@
     <solution>
         <p>
             First multiply 5 and 21 to get the key number of 105. Now look for two numbers that add to 38 and multiply to 105. The two numbers are 3 and 35. Rewrite the expression
-            as <m>5x^2 +3x + 35x +21</m>. Factor by grouping. <m>5x^2 +3x + 35x +21 = x(5x+3) + 7(5x+3) = (5x+3)(x+7)</m>
+            as <m>5x^2 +3x + 35x +21</m>. Factor by grouping. <m>5x^2 +3x + 35x +21 = x(5x+3) + 7(5x+3) = (5x+3)(x+7)</m>.
+        </p>
+    </solution>
+</example>
+<example workspace="2.0in">
+     <statement>
+        <p>
+            Factor the expression <m>6x^2-13x+5</m>.
+        </p>
+    </statement>
+    <answer>
+        <p>
+           <m>(2x-1)(3x-5)</m>
+        </p>
+    </answer>
+    <solution>
+        <p>
+            First multiply 6 and 5 to get the key number of 30. Now look for two numbers that add to -13 and multiply to 30. The two numbers are -3 and -10. Rewrite the expression
+            as <m>6x^2 -3x -10x +5</m>. Factor by grouping. <m>6x^2 -3x -10x +5 = 3x(2x-1) -5(2x-1) = (2x-1)(3x-5)</m>.
         </p>
     </solution>
 </example>
 </page>
 <page>
-<p>
-    <alert>Try it Now!</alert>
-</p>
-<exercise>
-    <introduction>
+<paragraphs>
+    <title>Try it Now!</title>
     <p>
         Factor the following expressions completely.  
     </p>
-    </introduction>
-    <task workspace="1.5in">
-        <statement>
-            <p>
+            <p workspace="1.5in">
                 <m>8x^2+22x+5</m>
             </p>
-        </statement>
-    </task>
-    <task workspace="1.5in">
-        <statement>
-            <p>
+        
+            <p workspace="1.5in">
                 <m>6x^2-47x+35</m>
             </p>
-        </statement>
-    </task>
-    <task workspace="1.5in">
-        <statement>
-            <p>
+        
+            <p workspace="1.5in">
                 <m>5x^2-11x-12</m>
             </p>
-        </statement>
-    </task>
-    <task workspace="1.5in">
-        <statement>
-            <p>
+        
+            <p workspace="1.5in">
                 <m>4x^2+25x-21</m>
             </p>
-        </statement>
-    </task>
-    <task workspace="1.5in">
-        <statement>
-            <p>
-                <m>24x62-6X-9</m>
+        
+            <p workspace="1.5in">
+                <m>24x^2-6x-9</m>
             </p>
-        </statement>
-    </task>
-    <task workspace="1.5in">
-        <statement>
-            <p>
-                <m>5x^2+30X+45</m>
+        
+            <p workspace="1.5in">
+                <m>5x^2+30x+45</m>
             </p>
-        </statement>
-    </task>
-</exercise>
+            <p workspace="1.5in">
+                <m>-10x^4-55x^3-60x^2</m>
+            </p>
+</paragraphs>
 </page>
-</worksheet>
+</handout>

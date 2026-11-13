@@ -1,4 +1,4 @@
-<worksheet>
+<handout>
 <title>Solving Quadratic Equations by Square Roots</title>
 <page>
 <objectives>
@@ -30,9 +30,8 @@
     we are only interested in the positive value, and this is called the <term>principal square root</term>. When we solve a quadratic equation, however, we want both the
     positive and negative values of the number.
 </p>
-<example>
-    <title>Solve the Quadratic Equation</title>
-    <statement>
+<example workspace="1.5in">
+        <statement>
         <p>
             <m>x^2=25</m>
         </p>
@@ -48,9 +47,8 @@
         </p>
     </solution>
 </example>
-<example>
-    <title>Solve the Quadratic Equation</title>
-    <statement>
+<example workspace="1.5in">
+        <statement>
         <p>
             <m>x^2=58</m>
         </p>
@@ -66,13 +64,14 @@
         </p>
     </solution>
 </example>
+</page>
+<page>
 <p>
     We can use square roots to solve a quadratic equation, if there are only squared terms involving the variable and constants. We may need to perform some preliminary steps to
     isolate the squared variable term first or some steps after taking the square root to isolate the variable.
 </p>
-<example>
-    <title>Solve the Quadratic Equation</title>
-    <statement>
+<example workspace="1.5in">
+       <statement>
         <p>
             <m>6x^2+8=62</m>
         </p>
@@ -89,16 +88,15 @@
         </p>
     </solution>
 </example>
-<example>
-    <title>Solve the Quadratic Equation</title>
-    <statement>
+<example workspace="1.5in">
+        <statement>
         <p>
             <m>(x-7)^2=25</m>
         </p>
     </statement>
     <answer>
         <p>
-            <m>x=\pm 12,2</m>
+            <m>x=12,2</m>
         </p>
     </answer>
     <solution>
@@ -108,66 +106,60 @@
         </p>
     </solution>
 </example>
+<example workspace="1.5in">
+        <statement>
+        <p>
+            <m>\left(x-\frac{1}{3}\right)^2=\frac{5}{9}</m>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <m>x=\frac{1}{3}\pm\frac{\sqrt{5}}{3}</m>
+        </p>
+    </answer>
+    <solution>
+        <p>
+            Start by taking the square root of both sides. Include a <m>\pm</m> on the number side of the equation. <m>\sqrt{\left(x-\frac{1}{3}\right)^2} = \sqrt{\frac{5}{9}}
+            \rightarrow x-\frac{1}{3} = \pm \frac{\sqrt{5}}{3}</m>. Add 1/3 to both sides to solve the equations. <m>x=\frac{1}{3}\pm\frac{\sqrt{5}}{3}</m>.
+        </p>
+    </solution>
+</example>
 </page>
 <page>
-<p>
-<alert>Try it Now!</alert>
-</p>
-<exercise>
-    <introduction>
+<paragraphs>
+  <title>Try it Now!</title>  
         <p>
             Solve the following quadratic equations using square roots.
         </p>
-    </introduction>
-    <task workspace="1.0in">
-        <statement>
-            <p>
-            <m>x^2 = 81</m>
+    
+            <p workspace="1.5in">
+           (a) <m>x^2 = 81</m>
             </p>
-        </statement>
-    </task>
-    <task workspace="1.0in">
-        <statement>
-            <p>
-            <m>x^2 = 65</m>
+        
+            <p workspace="1.5in">
+           (b) <m>x^2 = 65</m>
             </p>
-        </statement>
-    </task>
-    <task workspace="1.0in">
-        <statement>
-            <p>
-            <m>5x^2 = 125</m>
+        
+            <p workspace="1.5in">
+            (c) <m>5x^2 = 125</m>
             </p>
-        </statement>
-    </task>
-    <task workspace="1.0in">
-        <statement>
-            <p>
-            <m>8x^2+15=407</m>
+        
+            <p workspace="1.5in">
+           (d) <m>8x^2+15=407</m>
             </p>
-        </statement>
-    </task>
-    <task workspace="1.0in">
-        <statement>
-            <p>
-            <m>(x+5)^2=64</m>
+        
+            <p workspace="1.5in">
+            (e) <m>(x+5)^2=64</m>
             </p>
-        </statement>
-    </task>
-    <task workspace="1.0in">
-        <statement>
-            <p>
-            <m>(x+4)^2=29</m>
+        
+            <p workspace="1.5in">
+            (f) <m>(x+4)^2=29</m>
             </p>
-        </statement>
-    </task>
-    <task workspace="1.0in">
-        <statement>
-            <p>
-            <m>5(x-5)^2+2=22</m>
+        
+            <p workspace="1.5in">
+            (g) <m>5(x-5)^2+2=22</m>
             </p>
-        </statement>
-    </task>
-    </exercise>
+        
+    </paragraphs>
     </page>
-</worksheet>
+</handout>

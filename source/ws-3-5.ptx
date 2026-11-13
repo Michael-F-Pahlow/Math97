@@ -1,3 +1,200 @@
-<worksheet>
+<handout>
 <title>Rational Equations</title>
-</worksheet>
+<page>
+    <objectives>
+    <introduction>
+        <p>
+            In this section we will see how to:
+        </p>
+    </introduction>
+    <ul>
+        <li>
+            <p>
+                Solve rational equations.
+            </p>
+        </li>
+        <li>
+            <p>
+                Check solutions.
+            </p>
+        </li>
+    </ul>
+    </objectives>
+    <p>
+        We will use a similar technique to solve a rational equations as we did in the last section to simplify. When we multiply by the <term>least common denominator (LCD)</term>,
+        it will clear all of the fractions leaving us with an equation without fractions. For this class, that will mean we are left with a linear or quadratic equation. 
+    </p>
+    <p>
+        There will be one additional step after solving a rational equation. In the process of solving, we could have canceled out a factor that ends up leading to an 
+        extra solution. We need to check all of our solutions in the original equation. Solutions that make the original equation true are true
+        solutions. Solutions that make the original equation undefined are called <term>extraneous solutions</term>.
+    </p>
+    <example>
+        <statement>
+            <p>
+                Solve the equation: <m>\frac{1}{x+2}+1 = \frac{5}{x+2}</m>
+            </p>
+        </statement>
+        <answer>
+            <p>
+                <m>x=2</m>
+            </p>
+        </answer>
+        <solution>
+            <p>
+                Start by multiplying each term by the LCD <m>x+2</m>
+                <md>
+                    \frac{1(x+2)}{x+2}+1(x+2) = \frac{5(x+2)}{x+2}
+                </md>
+                Cancel out common factors, leading to a linear equation
+                <md>
+                    1 + x+2 = 5 \rightarrow x = 5-2-1 = 2
+                </md>
+                We need to check the solution in the original equation to make sure it is a true solution.
+                <md>
+                    \frac{1}{2+2}+1 = \frac{5}{2+2} \rightarrow \frac{1}{4} + 1 = \frac{5}{4} \rightarrow \frac{5}{4} = \frac{5}{4}
+                </md>
+            </p>
+        </solution>
+    </example>
+</page>
+<page>
+    <example workspace="3.0in">
+        <statement>
+            <p>
+                Solve the equation: <m>\frac{8}{x-2} = -\frac{10}{2x+7}</m>
+            </p>
+        </statement>
+        <answer>
+            <p>
+                <m>x=-\frac{18}{13}</m>
+            </p>
+        </answer>
+        <solution>
+            <p>
+                Start by multiplying each term by the LCD <m>(x-2)(2x+7)</m>
+                <md>
+                    \frac{8(x-2)(2x+7)}{x-2} = -\frac{10(x-2)(2x+7)}{2x+7}
+                </md>
+                Cancel out common factors, leading to a linear equation
+                <md>
+                    8(2x+7) = -10(x-2) \rightarrow 16x+56 = -10x+20 \rightarrow 26x = -36 \rightarrow x = -\frac{36}{26} = - \frac{-18}{-13}
+                </md>
+                We need to check the solution in the original equation to make sure it is a true solution. Using a calculator:
+                <md>
+                    \frac{8}{(-18/13)-2} = -\frac{10}{2(-18/13)+7} \rightarrow -\frac{26}{11} = -\frac{26}{11}
+                </md>
+            </p>
+        </solution>
+    </example>
+    <example workspace="3.0in">
+        <statement>
+            <p>
+                Solve the equation: <m>\frac{2}{x}+\frac{1}{8} = \frac{6}{7} - \frac{3}{8x}</m>
+            </p>
+        </statement>
+        <answer>
+            <p>
+                
+            </p>
+        </answer>
+        <solution>
+            <p>
+                
+            </p>
+        </solution>
+    </example>
+</page>
+<page>
+     <example workspace="3.0in">
+        <statement>
+            <p>
+                Solve the equation: <m>\frac{10}{x-7} = \frac{6}{7x-9}</m>
+            </p>
+        </statement>
+        <answer>
+            <p>
+                
+            </p>
+        </answer>
+        <solution>
+            <p>
+                
+            </p>
+        </solution>
+    </example>
+     <example workspace="3.0in">
+        <statement>
+            <p>
+                Solve the equation: <m>4x+\frac{56}{x}=-36</m>
+            </p>
+        </statement>
+        <answer>
+            <p>
+                
+            </p>
+        </answer>
+        <solution>
+            <p>
+                
+            </p>
+        </solution>
+    </example>
+</page>
+<page>
+     <example workspace="3.0in">
+        <statement>
+            <p>
+                Solve the equation: <m>2x-15 = \frac{27}{x}</m>
+            </p>
+        </statement>
+        <answer>
+            <p>
+                
+            </p>
+        </answer>
+        <solution>
+            <p>
+                
+            </p>
+        </solution>
+    </example>
+     <example workspace="3.0in">
+        <statement>
+            <p>
+                Solve the equation: <m>\frac{9x}{x^2-100}-\frac{6}{x+10} = \frac{1}{x-10}</m>
+            </p>
+        </statement>
+        <answer>
+            <p>
+                
+            </p>
+        </answer>
+        <solution>
+            <p>
+                
+            </p>
+        </solution>
+    </example>
+</page>
+<page>
+    <paragraphs>
+        <title>Try it Now!</title>
+        <p>
+            Solve the following equations. Make sure to check your solutions.
+        </p>
+        <p workspace="3.0in">
+            (a) <m>1 - \frac{2}{x} = \frac{8}{x^2}</m>
+        </p>
+        <p workspace="3.0in">
+            (b) <m>\frac{5}{3x-2} = \frac{7}{4x}</m>
+        </p>
+        <p workspace="3.0in">
+            (c) <m>\frac{x}{x+6} = \frac{72}{x^2-36}+4</m>
+        </p>
+        <p workspace="3.0in">
+            (d) <m>\frac{x+11}{x^2-5x+4} = \frac{5}{x-4}-\frac{3}{x-1}</m>
+        </p>
+    </paragraphs>
+</page>
+</handout>

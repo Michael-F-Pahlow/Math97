@@ -1,4 +1,4 @@
-<worksheet>
+<handout>
 
 <title>Factoring by Grouping</title>
 <page>
@@ -39,8 +39,7 @@
     is <m>4x^3</m> since the smallest exponent is 3 and when you factor the numbers, 8 = (4)(2), 20 = (4)(5) and 28 = (4)(7), 4 is the largest
     factor that is common to each term.
 </p>
-<example>
-    <title>Identify the GCF</title>
+<example workspace="0.6in">
     <statement>
         <p>
             What is the GCF of the expression <m>30x^2 + 18x^2</m>?
@@ -60,8 +59,7 @@
         </p>
     </solution>
 </example>
-<example>
-<title>Identify the GCF</title>
+<example workspace="0.6in">
 <statement>
     <p>
         What is the GCF of the expression <m>28x^5+8x^4 + 12x^3</m>?
@@ -81,44 +79,10 @@
 </page>
 <page>
 <p>
-<alert>Try it Now!</alert>
-</p>
-<exercise>
-    <introduction>
-        <p>
-            What is the GCF of the following polynomial expressions?
-        </p>
-    </introduction>
-    <task workspace="0.5in">
-        <statement>
-            <p>
-                <m>16x^3-2x^2+12x</m>
-            </p>
-        </statement>
-    </task>
-    <task workspace="0.5in">
-        <statement>
-            <p>
-                <m>20x^5+8x^3+12x^2</m>
-            </p>
-        </statement>
-    </task>
-    <task workspace="0.5in">
-        <statement>
-            <p>
-                <m>25x^6 + 5x^4 + 15x^3</m>
-            </p>
-        </statement>
-    </task>
-</exercise>
-</page>
-<page>
-<p>
    Once you identify the GCF, you want to factor this out of each term. What is remaining from each term forms the other factor.
 </p>
-<example>
-    <title>Factor Out the GCF</title>
-    <statement>
+<example workspace="0.75in">
+     <statement>
         <p>
             Factor the expression <m>10x^8 + 6x^7 + 22x^5</m>.
         </p>
@@ -136,9 +100,8 @@
         </p>
     </solution>
     </example>
-    <example>
-        <title>Factor Out the GCF</title>
-        <statement>
+    <example workspace="0.75in">
+       <statement>
             <p>
                 Factor the expression <m>8x^3-12x^2y+20xy^2</m>
             </p>
@@ -155,45 +118,13 @@
             </p>
         </solution>
     </example>
-    <p>
-        <alert>Try it Now!</alert>
-    </p>
-    <exercise>
-        <introduction>
-            <p>
-                Factor the following expressions by factoring out the GCF.
-            </p>
-        </introduction>
-        <task workspace="0.75in">
-            <statement>
-                <p>
-                    <m>28x^7+8x^6+44x^4</m>
-                </p>
-            </statement>
-        </task>
-        <task workspace="0.75in">
-            <statement>
-                <p>
-                    <m>9m^2n-36mn-288n</m>
-                </p>
-            </statement>
-        </task>
-        <task workspace="0.75in">
-            <statement>
-                <p>
-                    <m>8x(5x-4y)-3(5x-4y)</m>
-                </p>
-            </statement>
-        </task>
-    </exercise>
-    </page>
-    <page>
+   
+    
     <p>
         We can go one step further with factoring if we start with an even number of terms. This technique is called factoring by <term>grouping</term>. 
         We need and even number of terms so that we can form equal sized groups.
     </p>
-    <example>
-        <title>Factor by Grouping</title>
+    <example workspace="0.75in">
         <statement>
             <p>
                 Factor the expression <m>xy+8y+3x+24</m>
@@ -212,8 +143,7 @@
             </p>
         </solution>
     </example>
-    <example>
-        <title>Factor by Grouping</title>
+    <example workspace="0.75in">
         <statement>
             <p>
                 Factor the expression <m>4x^2-16x+3x-12</m>
@@ -230,36 +160,63 @@
             </p>
         </solution>
     </example>
-    <p>
-        <alert>Try it Now!</alert>
-    </p>
-    <exercise>
-        <introduction>
-            <p>
-                Completely factor the following expressions by grouping.
-            </p>
-        </introduction>
-        <task workspace="1.0in">
-            <statement>
-                <p>
-                    <m>x^2+7x-3x-21</m>
-                </p>
-            </statement>
-        </task>
-        <task workspace="1.0in">
-            <statement>
-                <p>
-                    <m>x^2y-xy^2+2x-2y</m>
-                </p>
-            </statement>
-        </task>
-        <task workspace="1.0in">
-            <statement>
-                <p>
-                    <m>w^2+2w+3w+6</m>
-                </p>
-            </statement>
-        </task>
-    </exercise>
     </page>
-</worksheet>
+    <page>
+    <paragraphs>
+        <title>Try it Now!</title>
+        <p>
+            1. What is the GCF of the following polynomial expressions?
+        </p>
+         <p workspace="0.75in">
+               (a) <m>16x^3-2x^2+12x</m>
+            </p>
+           
+            <p workspace="0.75in">
+               (b) <m>20x^5+8x^3+12x^2</m>
+            </p>
+        
+            <p workspace="0.75in">
+             (c)   <m>25x^6 + 5x^4 + 15x^3</m>
+            </p>
+        
+           <p>
+               2. Factor the following expressions by factoring out the GCF.
+            </p>
+        
+                <p workspace="0.75in">
+                 (a) <m>28x^7+8x^6+44x^4</m>
+                </p>
+            
+                <p workspace="0.75in">
+                  (b) <m>9m^2n-36mn-288n</m>
+                </p>
+            
+                <p workspace="0.75in">
+                (c) <m>8x(5x-4y)-3(5x-4y)</m>
+                </p>
+            </paragraphs> 
+        </page>
+                <page>
+            <p>
+                3. Completely factor the following expressions by grouping.
+            </p>
+                <p workspace="1.0in">
+                    (a) <m>x^2+7x-3x-21</m>
+                </p>
+           
+                <p workspace="1.0in">
+                    (b) <m>x^2y-xy^2+2x-2y</m>
+                </p>
+            
+                <p workspace="1.0in">
+                    (c) <m>w^2+2w+3w+6</m>
+                </p>
+                <p workspace="1.0in">
+                    (c) <m>ab+7b+8a+56</m>
+                </p>
+                <p workspace="1.0in">
+                    (c) <m>xy-6x-4y+24</m>
+                </p>
+    
+    </page>
+</handout>

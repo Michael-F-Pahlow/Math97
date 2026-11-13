@@ -113,6 +113,8 @@
         Two other points that are easy to graph are the <m>x</m>-intercepts. These are easiest to find if the equation is in factored form. We also saw in a previous section,
         that the vertex is the midpoint between the two <m>x-</m>intercepts, so it can be easily added to the graph after we plot the <m>x</m>-intercepts.
     </p>
+    </page>
+    <page>
     <example>
     <p>
         Graph the quadratic function <m>f(x)=\frac{1}{2}(x-4)(x+2)</m>.
@@ -143,6 +145,8 @@
         equation can be written in <term>vertex form</term>, <m>f(x) = a(x-h)^2+k</m>, where the vertex is at the point <m>(h,k)</m>. Note that the negative sign is built into
         the formula so that <m>f(x) = 2(x-4)^2+7</m> has vertex <m>(4,7)</m> and <m>f(x)=2(x+4)^2+7=2(x-(-4))^2+7</m> has vertex <m>(-4,7)</m>.
     </p>
+    </page>
+    <page>
     <example>
         <p>
             Graph the quadratic function <m>f(x)=(x+1)^2-2</m>.

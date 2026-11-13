@@ -1,4 +1,4 @@
-<worksheet>
+<handout>
 <title>Solving Quadratic Equations Using the Quadratic Formula</title>
 <page>
 <objectives>
@@ -38,8 +38,7 @@
         </md>
     </p>
 </assemblage>
-<example>
-    <title>Solve using the Quadratic Formula</title>
+<example workspace="2.0in">
     <statement>
         <p>
             Solve the equation <m>4x^2-3x-5=0</m>
@@ -60,9 +59,10 @@
         </p>
     </solution>
 </example>
-<example>
-    <title>Solve using the Quadratic Formula</title>
-    <statement>
+</page>
+    <page>
+<example workspace="2.0in">
+        <statement>
         <p>
             Solve the equation <m>3x^2-x-8=0</m>
         </p>
@@ -85,9 +85,8 @@
 <p>
     Sometimes some preliminary algebra steps are needed to put an equation in standard form before applying the quadratic formula.
 </p>
-<example>
-    <title>Solve using the Quadratic Formula</title>
-    <statement>
+<example workspace="2.0in">
+        <statement>
         <p>
             Solve the equation <m>-3x+8 = 4x^2</m>
         </p>
@@ -108,9 +107,8 @@
         </p>
     </solution>
 </example>
-<example>
-    <title>Solve using the Quadratic Formula</title>
-    <statement>
+<example workspace="2.0in">
+        <statement>
         <p>
             Solve the equation <m>3x^2-5=x</m>
         </p>
@@ -130,6 +128,8 @@
         </p>
     </solution>
 </example>
+</page>
+<page>
 <p>
     So far we have only seen examples where the result under the square root is positive. But it is possible, that we could end up with a zero or a negative number under
     the square root. This leads to three types of solutions for a quadratic equation.
@@ -167,7 +167,8 @@
         </li>
     </dl>
 </p>
-
+</page>
+<page>
 <assemblage xml:id="assemblage-quadratic-strategy">
     <title>A Strategy for Solving Quadratic Equations</title>
     <p>
@@ -199,58 +200,37 @@
 </assemblage>
 </page>
 <page>
-<p>
-    <alert>Try it Now!</alert>
-</p>
+<paragraphs>
+    <title>Try it Now!</title>
 
-<exercise>
-    <introduction>
         <p>
             Solve the following quadratic equations using the quadratic formula.
         </p>
-    </introduction>
-    <task workspace="1.0in">
-        <statement>
-            <p>
-                <m>4x^2-5x+1 = 0 </m>
+    
+            <p workspace="1.75in">
+             (a) <m>4x^2-5x+1 = 0 </m>
             </p>
-        </statement>
-    </task>
-    <task workspace="1.0in">
-        <statement>
-            <p>
-                <m>2x^2+10x+11 = 0 </m>
+        
+            <p workspace="1.75in">
+             (b) <m>2x^2+10x+11 = 0 </m>
             </p>
-        </statement>
-    </task>
-    <task workspace="1.0in">
-        <statement>
-            <p>
-                <m>3x^2+2x+9 = 0 </m>
+        
+            <p workspace="1.75in">
+             (c) <m>3x^2+2x+9 = 0 </m>
             </p>
-        </statement>
-    </task>
-    <task workspace="1.0in">
-        <statement>
-            <p>
-                <m>x(x+6) = -4 </m>
+        
+            <p workspace="1.75in">
+             (d) <m>x(x+6) = -4 </m>
             </p>
-        </statement>
-    </task>
-    <task workspace="1.0in">
-        <statement>
-            <p>
-                <m>\frac{3}{4}x^2+\frac{1}{2}x = \frac{3}{8} </m>
+        
+            <p workspace="1.75in">
+              (e) <m>\frac{3}{4}x^2+\frac{1}{2}x = \frac{3}{8} </m>
             </p>
-        </statement>
-    </task>
-    <task workspace="1.0in">
-        <statement>
-            <p>
-                <m>16x^2+8x+1 = 0 </m>
+        
+            <p workspace="1.75in">
+              (f) <m>16x^2+8x+1 = 0 </m>
             </p>
-        </statement>
-    </task>
-</exercise>
+        
+</paragraphs>
 </page>
-</worksheet>
+</handout>

@@ -3,7 +3,8 @@
   <title>Rational Expressions and Equations</title>
   <introduction>
     <p>
-      Another important type of expression or equation is a rational. A rational expression is a ratio or fraction of polynomial expressions. 
+      Another important type of algebraic expression is a rational expression. A rational expression is a ratio or fraction of polynomial expressions. One thing we have to be 
+      careful about with rational expressions is that they have variables in the denominator and we cannot allow the denominator of the fraction to be zero.
     </p>
   </introduction>
   <xi:include href="./ws-3-1.ptx" />

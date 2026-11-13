@@ -1,3 +1,121 @@
-<worksheet>
+<handout>
 <title>Complicated Fractions</title>
-</worksheet>
+<page>
+<objectives>
+    <introduction>
+        <p>
+            In this section we will see how to:
+        </p>
+    </introduction>
+    <ul>
+        <li>
+            <p>
+                Simplify a complicated fraction by using the least common denominator.
+            </p>
+        </li>
+    </ul>
+</objectives>
+<p>
+   A <term>complicated fraction </term>is a larger fraction made up of smaller fractions. (To code this I had to use nested fractions.)
+   <md>
+    \frac{\frac{2}{x+6}}{\frac{4}{x-6}-\frac{4}{x^2-36}}
+   </md>
+   One method to simplify an expression like this is to multiply by the least common denominator of all of the smaller fractions. This will <q>clear</q> the denominators
+   of the smaller fractions, leaving just the larger fraction which could then be further simplified.
+</p>
+<example>
+    <statement>
+        <p>
+            Simplify:
+            <md>
+                \frac{\frac{3}{x+2}}{\frac{5}{x-2}-\frac{3}{x^2-4}}
+            </md>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <m>\frac{3x-6}{5x-7}</m>
+        </p>
+    </answer>
+    <solution>
+        <p>
+            Start by finding the the LCD of the smaller fractions.
+            <md>
+                \frac{\frac{3}{x+2}}{\frac{5}{x-2}-\frac{3}{(x-2)(x+2)}}
+            </md>
+            The LCD is <m>(x-2)(x+2)</m>. Multiply the numerator and denominator of the larger fraction by this LCD. This is equivalent to multiplying the numerator of each 
+            of the smaller fractions by the LCD.
+            <md>
+                \frac{\frac{3(x-2)(x+2)}{x+2}}{\frac{5(x-2)(x+2)}{x-2}-\frac{3(x-2)(x+2)}{(x-2)(x+2)}}
+            </md>
+            Cancel out the denominators of all of the smaller fractions.
+            <md>
+                \frac{3(x-2)}{5(x+2)-3}
+            </md>
+            Since further simplification can be done, finish by distributing.
+            <md>
+                \frac{3x-6}{5x-7}
+            </md>
+        </p>
+    </solution>
+</example>
+</page>
+<page>
+<example>
+    <statement>
+        <p>
+            Simplify:
+            <md>
+                \frac{\frac{4x}{x+5}+\frac{2}{x+6}}{\frac{3x}{x^2+11x+30}}
+            </md>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <m>\frac{3x-6}{5x-7}</m>
+        </p>
+    </answer>
+    <solution>
+        <p>
+            Start by finding the the LCD of the smaller fractions.
+            <md>
+                \frac{\frac{4x}{x+5}+\frac{2}{x+6}}{\frac{3x}{(x+5)(x+6)}}
+            </md>
+            The LCD is <m>(x+5)(x+6)</m>. Multiply the numerator and denominator of the larger fraction by this LCD. This is equivalent to multiplying the numerator of each 
+            of the smaller fractions by the LCD.
+            <md>
+                \frac{\frac{4x(x+5)(x+6)}{x+5}+\frac{2(x+5)(x+6)}{x+6}}{\frac{3x(x+5)(x+6)}{(x+5)(x+6)}}
+            </md>
+            Cancel out the denominators of all of the smaller fractions.
+            <md>
+                \frac{4x(x+6)+2(x+5)}{3x}
+            </md>
+            Since further simplification can be done, finish by distributing.
+            <md>
+                \frac{4x^2+26x12}{3x}
+            </md>
+        </p>
+    </solution>
+</example>
+</page>
+<page>
+    <paragraphs>
+        <title>Try it Now!</title>
+        <p>
+            Simplify the following expressions completely.
+        </p>
+        <p workspace="3.0in">
+           (a) <m>\frac{\frac{2}{x+5}}{\frac{3}{x-5}+\frac{1}{x^2-25}}</m> 
+        </p>
+        <p workspace="3.0in">
+           (b) <m>\frac{\frac{5}{x^2-64}+\frac{3}{x+8}}{\frac{1}{x+8}+\frac{2}{x-8}}</m> 
+        </p>
+        <p workspace="3.0in">
+           (c) <m>\frac{\frac{4}{x^2-2x-15}}{\frac{1}{x-5}+\frac{2}{x+3}}</m> 
+        </p>
+        <p workspace="3.0in">
+           (d) <m>\frac{\frac{x}{x+5}}{4+\frac{1}{x-5}}</m> 
+        </p>
+    </paragraphs>
+</page>
+</handout>

@@ -1,35 +1,208 @@
-<worksheet>
+<handout>
 <title>Simplifying Rational Expressions</title>
 <page>
     <objectives>
     <introduction>
         <p>
-            In this section we will see how to:
+            In this section we will see how to simplify rational expressions by:
         </p>
     </introduction>
     <ul>
         <li>
             <p>
-                Graph a quadratic equation in standard form.
+                Reducing numerical fractions
             </p>
         </li>
         <li>
             <p>
-                Graph a quadratic equation in factored form.
+                Canceling out common fractions.
             </p>
         </li>
         <li>
             <p>
-                Convert a quadratic equation into vertex form.
-            </p>
-        </li>
-        <li>
-            <p>
-                Graph a quadratic equation in vertex form.
+                Noting when the denominator is zero.
             </p>
         </li>
     </ul>
 </objectives>
-
+<p>
+    A <term>rational expression</term> is a ratio of polynomials with variables in both the numerator and denominator. Examples of rational expressions are 
+    <md>
+        \frac{30x^2}{5x}
+    </md>
+    and
+    <md>
+        \frac{4x^2+3x-1}{2x-8}
+    </md>
+    A rational expression is undefined when the denominator is zero. For example, <m>\frac{30x^2}{5x}</m> is undefined when <m>x=0</m> because inserting <m>x=0</m> into the 
+    expression makes the denominator equal zero. 
+</p>
+<p>
+    Rational expressions may be simplified by canceling out common factors from the numerator and denominator. For example <m>\frac{30x^2}{5x}</m> may be written in factored
+    form as <m>\frac{5\cdot 6 \cdot x \cdot x}{5\cdot x}</m>. There are a 5 and and <m>x</m> common to both the numerator and denominator, we may cancel them out. But we need
+    to be careful. For while <m>\frac{30}{5} = 6</m> but <m>\frac{x^2}{x}</m> does not exactly equal <m>x</m> because <m>x</m> can be any number but <m>\frac{x^2}{x}</m> does
+    not allow <m>x=0</m>. So when we simplify <m>\frac{30x^2}{5x} = 6x</m> we also have to say <m>x\ne 0</m>.
+</p>
+<p>
+    So there are four steps to simplifying a rational expression:
+<ol>
+    <li>
+        <p>
+            Factor the numerator and denominator.
+        </p>
+    </li>
+    <li>
+        <p>
+           Reduce numerical factors.
+        </p>
+    </li>
+    <li>
+        <p>
+            Cancel out common factors with variables.
+        </p>
+    </li>
+    <li>
+        <p>
+            State which values of the variable(s) make the denominator zero.
+        </p>
+    </li>
+</ol>
+</p>
 </page>
-</worksheet>
+<page>
+    <example workspace="2.0in">
+        <statement>
+            <p>
+             Simplify the expression <m>\frac{5x+50}{30}</m>
+            </p>
+        </statement>
+        <answer>
+            <p>
+                <m>\frac{x+10}{6}</m>
+            </p>
+        </answer>
+        <solution>
+            <p>
+                Factor the numerator and denominator to get \frac{5(x+10)}{5\cdot 6}. Cancel out the common 5's to get <m>\frac{x+10}{6}</m>. Since we only canceled out
+                numbers, we do not need to state when the denominator is zero.
+            </p>
+        </solution>
+    </example>
+    <example workspace="2.0in">
+        <statement>
+            <p>
+                Simplify the expression <m>\frac{6}{3x+27}</m>
+            </p>
+        </statement>
+        <answer>
+            <p>
+                <m>\frac{2}{x+9}</m>
+            </p>
+        </answer>
+        <solution>
+            <p>
+                Factor the numerator and denominator to get \frac{3\cdot 2}{3(x+9)}. Cancel out the common 2's to get <m>\frac{2}{x+9}</m>. Since we only canceled out
+                numbers, we do not need to state when the denominator is zero.
+            </p>
+        </solution>
+    </example>
+    <example workspace="2.0in">
+        <statement>
+            <p>
+                Simplify the expression <m>\frac{2x-10}{x^2-8x+15}</m>
+            </p>
+        </statement>
+        <answer>
+            <p>
+                <m>\frac{2}{x-3}</m>
+            </p>
+        </answer>
+        <solution>
+            <p>
+                Factor the numerator and denominator to get \frac{2(x-5)}{(x-3)(x-5)}. Cancel out the common <m>(x-5)</m> to get <m>\frac{2}{x-3}</m>. 
+                Since we canceled out <m>x-5</m>, we need to state that <m>x\ne 5</m> since <m>x=5</m> make the denominator zero.
+            </p>
+        </solution>
+    </example>
+</page>
+<page>
+    <example workspace="2.0in">
+        <statement>
+            <p>
+                Simplify the expression <m>\frac{x^2+4x-21}{x^2+11x+28}</m>
+            </p>
+        </statement>
+        <answer>
+            <p>
+                <m>\frac{x-3}{x+4}</m>
+            </p>
+        </answer>
+        <solution>
+            <p>
+                Factor the numerator and denominator to get \frac{(x-3)(x+7)}{(x+4)(x+7)}. Cancel out the common <m>(x+7)</m> to get <m>\frac{x-3}{x+4}</m>. 
+                Since we canceled out <m>x+7</m>, we need to state that <m>x\ne -7</m> since <m>x=-7</m> make the denominator zero.
+            </p>
+        </solution>
+    </example>
+    <example workspace="2.0in">
+        <statement>
+            <p>
+                Simplify the expression <m>\frac{4x^2+3x-1}{4x^2-13x+3}</m>
+            </p>
+        </statement>
+        <answer>
+            <p>
+                <m>\frac{x+1}{x-3}</m>
+            </p>
+        </answer>
+        <solution>
+            <p>
+                Factor the numerator and denominator to get \frac{(x+1)(4x-1)}{(x-3)(4x-1)}. Cancel out the common <m>(4x-1)</m> to get <m>\frac{x+1}{x-3}</m>. 
+                Since we canceled out <m>4x-1</m>, we need to state that <m>x\ne \frac{1}{4}</m> since <m>x=\frac{1}{4}</m> make the denominator zero.
+            </p>
+        </solution>
+    </example>
+    <example workspace="2.0in">
+        <statement>
+            <p>
+                Simplify the expression <m>\frac{x^2+11x+30}{x^2-36}</m>
+            </p>
+        </statement>
+        <answer>
+            <p>
+                <m>\frac{x+5}{x-6}</m>
+            </p>
+        </answer>
+        <solution>
+            <p>
+                Factor the numerator and denominator to get \frac{(x+6)(x+5)}{(x+6)(x-6)}. Cancel out the common <m>(x+6)</m> to get <m>\frac{x+5}{x-6}</m>. 
+                Since we canceled out <m>x+6</m>, we need to state that <m>x\ne -6</m> since <m>x=-6</m> make the denominator zero.
+            </p>
+        </solution>
+    </example>
+</page>
+<page>
+    <paragraphs>
+        <title>Try it Now!</title>
+      <p>
+        Simplify the following expressions.
+    </p>  
+    <p workspace="1.0in">
+      (a) <m>\frac{x+2}{x^2+5x+6}</m> 
+    </p>
+    <p workspace="1.0in">
+     (b) <m>\frac{x^2-x-2}{x^2-3x+2}</m> 
+    </p>
+    <p workspace="1.0in">
+     (c) <m>\frac{x^2-3x+10}{x^2+x-2}</m> 
+    </p>
+    <p workspace="1.0in">
+     (d) <m>\frac{x^2-4x-32}{64-x^2}</m> 
+    </p>
+    <p workspace="1.0in">
+     (e) <m>\frac{x^2-4x-5}{25-x^2}</m> 
+    </p>
+    </paragraphs>
+    
+</page>
+</handout>
